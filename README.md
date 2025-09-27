@@ -18,14 +18,13 @@ Retail teams collect lots of sales data but struggle to quickly see:
 ---
 
 ## 🗂️ Dataset & Expected Columns
-Upload a CSV with these headers (synonyms are auto-mapped, e.g. `sales→revenue`, `qty→quantity`, `date→order_date`):
+Upload a CSV with these headers:
 
 - `order_id`, `order_date`, `store_id`, `region`, `sales_channel`  
 - `product_id`, `category`, `subcategory`, `product_name`  
 - `unit_price`, `quantity`, `discount_rate`, `revenue`, `cost`, `profit`  
 - `payment_method`, `customer_id`, `customer_segment`, `promo_code`  
-- `is_return`, `return_date`  
-- *(optional)* `inventory`
+- `is_return`, `return_date`
 
 > Don’t have data? Generate a sample via `tools/make_sample_csv.py` (see below).
 
