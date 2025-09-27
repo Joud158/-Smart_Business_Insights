@@ -2,7 +2,7 @@
 
 **Live demo:** _[Render URL](https://smart-business-insights.onrender.com/)_  
 
-Team: **Aya El Hajj • Batoul Hashem • Joud Senan**
+Team: **Aya El Hajj • Batoul Hachem • Joud Senan**
 
 ---
 
