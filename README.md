@@ -19,7 +19,16 @@ The dashboard accepts a CSV dataset uploaded by the user, containing detailed sa
 - product_name  
 - unit_price  
 - quantity  
-- discount  
+- discount_rate
+- revenue
+- cost
+- profit
+- payment_method
+- customer_id
+- customer_segment
+- promo_code
+- is_return
+- return_date
 
 This dataset captures both transactional details and general information about products and stores, which helps to have a meaningful analysis and comparisons across regions, categories, and time periods.
 
