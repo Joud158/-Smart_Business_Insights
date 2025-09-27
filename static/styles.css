@@ -1,0 +1,112 @@
+:root{
+  --sky-50:#f4faff;
+  --sky-100:#e8f4ff;
+  --sky-200:#d6ecff;
+  --sky-400:#a7d6ff;
+  --mint:#49a1b5;
+  --mint-700:#3b899a;
+  --ink:#0f172a;
+  --muted:#64748b;
+  --card:#ffffff;
+  --line:#e6eef6;
+  --ring:#b9d9ff;
+  --radius:16px;
+  --shadow:0 10px 25px rgba(40, 120, 190, .10);
+}
+
+*{box-sizing:border-box}
+html,body{height:100%}
+body{
+  margin:0;
+  font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Arial, "Apple Color Emoji","Segoe UI Emoji";
+  color:var(--ink);
+  background:
+    radial-gradient(1200px 600px at -10% -10%, var(--sky-100), transparent 60%),
+    radial-gradient(900px 500px at 120% 0%, var(--sky-200), transparent 60%),
+    linear-gradient(180deg, var(--sky-50), #f9fcff);
+}
+
+.shell{max-width:1100px;margin:0 auto;padding:0 20px}
+header{
+  position:sticky; top:0; z-index:50;
+  backdrop-filter:saturate(1.2) blur(6px);
+  background:linear-gradient(135deg, #eef7ff, #fbfdffb3);
+  border-bottom:1px solid var(--line);
+}
+.head{display:flex; align-items:center; justify-content:space-between; padding:18px 0}
+.brand{display:flex; align-items:center; gap:12px}
+.badge{
+  width:36px;height:36px;border-radius:11px;
+  background:linear-gradient(135deg, var(--sky-400), var(--mint));
+  box-shadow:0 6px 18px rgba(73,161,181,.25), inset 0 0 8px rgba(255,255,255,.6);
+}
+h1{font-size:22px; line-height:1.2; margin:0}
+.subtitle{font-size:13px;color:var(--muted)}
+
+main{padding:24px 0 64px}
+.grid{display:grid; gap:16px; grid-template-columns: repeat(12, minmax(0,1fr))}
+@media (max-width: 960px){ .grid{grid-template-columns: repeat(6, minmax(0,1fr))} }
+@media (max-width: 640px){ .grid{grid-template-columns: repeat(4, minmax(0,1fr))} }
+
+.card{
+  grid-column: span 12;
+  background:var(--card);
+  border:1px solid var(--line);
+  border-radius:var(--radius);
+  box-shadow:var(--shadow);
+  padding:16px;
+}
+.card h3{margin:0 0 12px}
+.soft{background:linear-gradient(180deg, #ffffff, #f8fbff 80%)}
+
+label{font-size:13px;color:var(--muted);display:block;margin-bottom:6px}
+input[type="text"],input[type="file"]{
+  height:44px;width:100%;
+  padding:10px 12px;border:1px solid var(--line);border-radius:12px;background:#fff;
+  outline:none; transition:.15s ease border-color, .15s ease box-shadow;
+}
+input:focus{
+  border-color:var(--ring);
+  box-shadow:0 0 0 3px rgba(125, 187, 255, .35);
+}
+.row{display:grid; gap:12px; align-items:end}
+.row.cols-3{grid-template-columns: 1.8fr 1fr 120px}
+@media (max-width: 700px){ .row.cols-3{grid-template-columns:1fr} }
+
+button{
+  height:44px; padding:0 16px;
+  border:0;border-radius:12px; font-weight:700; letter-spacing:.2px;
+  background:linear-gradient(180deg, var(--mint), var(--mint-700));
+  color:#fff; cursor:pointer; transition:transform .06s ease, box-shadow .2s ease;
+  box-shadow:0 10px 18px rgba(73,161,181,.28);
+}
+button:hover{transform:translateY(-1px)}
+button:active{transform:translateY(0)}
+button:disabled{opacity:.6; cursor:not-allowed; transform:none; box-shadow:none}
+
+table{width:100%; border-collapse:collapse; font-size:14px}
+th,td{padding:10px 8px; text-align:left; border-bottom:1px solid var(--line)}
+th{color:var(--muted); font-weight:600}
+.kpi td{font-weight:600}
+.mono{font-variant-numeric: tabular-nums}
+
+.table-wrap{overflow:auto; border-radius:12px; border:1px solid var(--line)}
+table.striped tbody tr:nth-child(odd){background:#fbfdff}
+tbody tr:hover{background:#f2f8ff}
+
+.caps{font-size:12px; color:var(--muted); text-transform:uppercase; letter-spacing:.08em}
+
+.chat-out{
+  min-height:60px; white-space:pre-wrap;
+  padding:12px; border:1px dashed var(--line); border-radius:12px;
+  background:linear-gradient(180deg, #ffffff, #f7fbff);
+}
+
+/* Toast */
+.toast{
+  position:fixed; bottom:18px; right:18px; z-index:60;
+  background:#063a62; color:#e8f4ff; padding:10px 14px; border-radius:12px;
+  box-shadow:0 10px 20px rgba(6,58,98,.25); display:none
+}
+.show{display:block; animation:pop .18s ease}
+@keyframes pop{from{transform:translateY(6px); opacity:0} to{transform:translateY(0); opacity:1)}

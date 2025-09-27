@@ -1,0 +1,126 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>Smart Business Insights</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <link rel="preconnect" href="https://cdn.jsdelivr.net" />
+  <link rel="stylesheet" href="/static/styles.css" />
+</head>
+<body>
+  <header>
+    <div class="shell head">
+      <div class="brand">
+        <div class="badge" aria-hidden="true"></div>
+        <div>
+          <h1>Smart Business Insights</h1>
+          <div class="subtitle">Upload CSV • Get KPIs • Ask AI</div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main class="shell">
+    <!-- Upload + Analyze -->
+    <section class="card soft">
+      <h3>Analyze Sales CSV</h3>
+      <div class="row cols-3" style="margin-top:10px">
+        <div>
+          <label>CSV file</label>
+          <input id="csv" type="file" accept=".csv" />
+        </div>
+        <div>
+          <label>store_id (optional)</label>
+          <input id="branch" type="text" placeholder="e.g., Store-3" />
+        </div>
+        <div>
+          <button id="analyze">Analyze</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- KPIs -->
+    <section class="card">
+      <h3>KPIs</h3>
+      <div class="table-wrap">
+        <table class="kpi striped">
+          <tbody>
+            <tr><th>Revenue</th><td id="k_revenue" class="mono">—</td></tr>
+            <tr><th>Profit</th><td id="k_profit" class="mono">—</td></tr>
+            <tr><th>Gross Margin</th><td id="k_margin" class="mono">—</td></tr>
+            <tr><th>Orders</th><td id="k_orders" class="mono">—</td></tr>
+            <tr><th>Customers</th><td id="k_customers" class="mono">—</td></tr>
+            <tr><th>Avg Order Value</th><td id="k_aov" class="mono">—</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <div id="meta" class="caps" style="margin-top:8px;color:#64748b"></div>
+    </section>
+
+    <!-- Tables -->
+    <section class="grid">
+      <div class="card" style="grid-column: span 12;">
+        <h3 style="margin-bottom:6px">Products Overview</h3>
+        <div class="caps" style="margin-bottom:12px">Top performers and laggards</div>
+
+        <div class="grid" style="gap:16px">
+          <div class="table-wrap" style="grid-column: span 6;">
+            <div class="caps" style="padding:8px 8px 0">Top by Profit</div>
+            <table id="tbl_top_profit" class="striped">
+              <thead><tr>
+                <th>product_id</th><th>product_name</th><th>profit</th><th>revenue</th><th>qty</th><th>avg_price</th><th>orders</th>
+              </tr></thead><tbody></tbody>
+            </table>
+          </div>
+
+          <div class="table-wrap" style="grid-column: span 6;">
+            <div class="caps" style="padding:8px 8px 0">Top by Quantity</div>
+            <table id="tbl_top_qty" class="striped">
+              <thead><tr>
+                <th>product_id</th><th>product_name</th><th>qty</th><th>profit</th><th>revenue</th><th>avg_price</th><th>orders</th>
+              </tr></thead><tbody></tbody>
+            </table>
+          </div>
+
+          <div class="table-wrap" style="grid-column: span 6;">
+            <div class="caps" style="padding:8px 8px 0">Lowest by Profit</div>
+            <table id="tbl_low_profit" class="striped">
+              <thead><tr>
+                <th>product_id</th><th>product_name</th><th>profit</th><th>revenue</th><th>qty</th><th>avg_price</th><th>orders</th>
+              </tr></thead><tbody></tbody>
+            </table>
+          </div>
+
+          <div class="table-wrap" style="grid-column: span 6;">
+            <div class="caps" style="padding:8px 8px 0">Lowest by Quantity</div>
+            <table id="tbl_low_qty" class="striped">
+              <thead><tr>
+                <th>product_id</th><th>product_name</th><th>qty</th><th>profit</th><th>revenue</th><th>avg_price</th><th>orders</th>
+              </tr></thead><tbody></tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Chat -->
+    <section class="card">
+      <h3>Chat with the Assistant</h3>
+      <div class="row cols-3" style="grid-template-columns: 1fr 120px; max-width:100%; gap:12px">
+        <div>
+          <label>Your question</label>
+          <input id="chatQ" type="text" placeholder="What should we stock more of next month?" />
+        </div>
+        <div>
+          <button id="ask">Ask</button>
+        </div>
+      </div>
+      <div id="chatReply" class="chat-out" style="margin-top:12px"></div>
+    </section>
+  </main>
+
+  <div id="toast" class="toast"></div>
+
+  <script src="/static/app.js"></script>
+</body>
+</html>
