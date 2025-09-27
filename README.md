@@ -71,20 +71,17 @@ $env:MISTRAL_API_KEY="sk-..."
 ```
 
 ---
-🐋Running on docker:
-Option 1: 
 
+## 🐋Running on docker:
+
+- Option 1: 
 docker build -t smart-insights .
 docker run --rm -p 8000:8000 --env-file .env smart-insights
-# http://localhost:8000
+http://localhost:8000
 
-Option 2:
-
+- Option 2:
 docker compose up --build
 
 
 
-
-
-
-Group: Aya El Hajj, Batoul Hashem, Joud Senan
+Group Members: Aya El Hajj, Batoul Hachem, Joud Senan
