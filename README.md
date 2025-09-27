@@ -13,7 +13,7 @@ Retail teams collect lots of sales data but struggle to quickly see:
 - How branches/regions compare  
 - What to stock/discount next month
 
-**Smart Business Insights** ingests a CSV and instantly returns **KPIs, top/low products, and concrete next-month actions**. A built-in chat assistant answers business questions (uses Mistral if a key is provided; otherwise a smart fallback).
+**Smart Business Insights** ingests a CSV and instantly returns **KPIs, top/low products, and concrete next-month actions**. A built-in chat assistant answers business questions.
 
 ---
 
