@@ -1,0 +1,501 @@
+order_id,order_date,store_id,region,sales_channel,product_id,category,subcategory,product_name,unit_price,quantity,discount_rate,revenue,cost,profit,payment_method,customer_id,customer_segment,promo_code,is_return,return_date,inventory
+1,2025-07-10,Store-1,Central,Online,P168,Electronics,Phones,Phones 4,76.31,1,0.15,64.86,43.09,21.77,Card,C1111,Corporate,,false,,5
+2,2025-08-08,Store-2,North,Online,P180,Electronics,Audio,Audio 19,189.8,5,0.15,806.65,579.98,226.67,Card,C1011,Small Business,WINTER10,false,,26
+3,2025-06-17,Store-3,North,Retail,P187,Sports,Fitness,Fitness 6,25.1,5,0,125.5,89.32,36.18,Wallet,C1182,Consumer,,false,,39
+4,2025-06-25,Store-2,South,Retail,P159,Home,Kitchen,Kitchen 19,185.07,3,0.05,527.45,355.78,171.67,Card,C1178,Consumer,,false,,33
+5,2025-08-01,Store-2,South,Retail,P177,Home,Kitchen,Kitchen 3,28.02,4,0,112.08,92.71,19.37,Card,C1125,Corporate,,false,,48
+6,2025-08-09,Store-3,Central,Retail,P176,Home,Kitchen,Kitchen 16,118.08,4,0,472.32,402.41,69.91,Cash,C1121,Small Business,,false,,46
+7,2025-08-27,Store-2,South,Retail,P191,Home,Kitchen,Kitchen 13,177.97,3,0,533.91,471.01,62.9,Cash,C1043,Small Business,,true,2025-08-28,13
+8,2025-09-05,Store-2,North,Online,P150,Home,Decor,Decor 16,20.71,4,0.1,74.56,57.03,17.53,Card,C1110,Small Business,VIP5,true,2025-09-11,43
+9,2025-09-20,Store-2,North,Online,P122,Electronics,Phones,Phones 5,50.23,2,0,100.46,74.89,25.57,Wallet,C1046,Corporate,VIP5,false,,9
+10,2025-07-22,Store-3,Central,Retail,P188,Electronics,Audio,Audio 17,190.29,1,0.1,171.26,148.97,22.29,Wallet,C1143,Corporate,NEW20,true,2025-07-29,6
+11,2025-07-30,Store-3,Central,Online,P108,Electronics,Audio,Audio 7,90.92,1,0.05,86.37,67.39,18.98,Card,C1000,Small Business,WINTER10,false,,23
+12,2025-08-16,Store-1,North,Online,P148,Sports,Fitness,Fitness 5,128.71,3,0.15,328.21,232.78,95.43,Card,C1029,Corporate,NEW20,true,2025-08-24,19
+13,2025-06-09,Store-1,North,Retail,P161,Home,Kitchen,Kitchen 6,105.69,2,0.15,179.67,127.3,52.37,Wallet,C1139,Consumer,,false,,41
+14,2025-09-17,Store-1,South,Retail,P146,Sports,Fitness,Fitness 6,74.36,2,0.15,126.41,96.38,30.03,Wallet,C1084,Small Business,WINTER10,false,,15
+15,2025-09-11,Store-2,South,Online,P166,Electronics,Audio,Audio 16,74.33,1,0,74.33,62.22,12.11,Cash,C1066,Consumer,,false,,28
+16,2025-09-10,Store-3,Central,Retail,P128,Electronics,Phones,Phones 4,49.23,2,0.05,93.54,61.86,31.68,Wallet,C1156,Consumer,NEW20,false,,41
+17,2025-06-09,Store-3,North,Retail,P161,Electronics,Audio,Audio 6,89.62,3,0,268.86,225.91,42.95,Wallet,C1101,Corporate,NEW20,false,,46
+18,2025-06-19,Store-1,North,Online,P175,Electronics,Audio,Audio 15,162.27,2,0.15,275.86,233.92,41.94,Cash,C1168,Corporate,WINTER10,false,,1
+19,2025-05-31,Store-3,South,Online,P195,Sports,Fitness,Fitness 5,89.59,2,0,179.18,109.01,70.17,Card,C1074,Small Business,WINTER10,false,,16
+20,2025-08-07,Store-2,North,Online,P158,Home,Kitchen,Kitchen 19,163.93,5,0.1,737.69,625.67,112.02,Wallet,C1033,Small Business,WINTER10,false,,28
+21,2025-09-06,Store-1,South,Online,P122,Electronics,Audio,Audio 5,97.33,1,0.15,82.73,51.17,31.56,Wallet,C1132,Small Business,,true,2025-09-08,35
+22,2025-06-06,Store-1,North,Retail,P198,Electronics,Phones,Phones 4,104.0,5,0,520.0,430.56,89.44,Card,C1113,Corporate,,false,,44
+23,2025-07-04,Store-2,South,Retail,P131,Sports,Fitness,Fitness 17,175.92,3,0.15,448.6,389.31,59.29,Card,C1114,Consumer,NEW20,false,,25
+24,2025-07-25,Store-2,North,Online,P109,Home,Decor,Decor 7,135.55,1,0,135.55,119.53,16.02,Wallet,C1169,Corporate,WINTER10,false,,8
+25,2025-07-28,Store-1,South,Online,P162,Home,Decor,Decor 6,198.02,2,0,396.04,321.54,74.5,Wallet,C1103,Corporate,NEW20,false,,22
+26,2025-07-09,Store-1,South,Retail,P143,Electronics,Phones,Phones 18,94.44,1,0.1,85.0,59.45,25.55,Wallet,C1075,Small Business,,false,,50
+27,2025-06-28,Store-1,North,Retail,P105,Home,Kitchen,Kitchen 6,57.74,2,0.1,103.93,88.85,15.08,Wallet,C1066,Corporate,WINTER10,true,2025-07-04,5
+28,2025-07-04,Store-1,South,Online,P109,Home,Decor,Decor 9,187.98,1,0.05,178.58,111.63,66.95,Card,C1017,Corporate,,true,2025-07-05,21
+29,2025-08-08,Store-2,Central,Online,P167,Electronics,Phones,Phones 8,187.93,2,0.05,357.07,219.64,137.43,Card,C1079,Small Business,VIP5,false,,18
+30,2025-07-26,Store-3,South,Online,P144,Home,Kitchen,Kitchen 1,198.93,1,0,198.93,120.46,78.47,Wallet,C1141,Consumer,,true,2025-07-30,28
+31,2025-06-12,Store-3,South,Retail,P169,Home,Decor,Decor 13,194.21,3,0,582.63,521.3,61.33,Cash,C1050,Small Business,WINTER10,true,2025-06-18,3
+32,2025-09-14,Store-1,North,Online,P155,Home,Kitchen,Kitchen 6,15.8,4,0.15,53.72,43.04,10.68,Cash,C1153,Consumer,VIP5,false,,29
+33,2025-06-22,Store-1,Central,Retail,P133,Electronics,Phones,Phones 12,192.55,5,0.05,914.61,615.84,298.77,Cash,C1055,Corporate,WINTER10,false,,21
+34,2025-07-17,Store-1,Central,Retail,P183,Sports,Fitness,Fitness 7,53.39,1,0,53.39,36.27,17.12,Card,C1036,Corporate,,false,,25
+35,2025-06-01,Store-2,Central,Online,P174,Electronics,Phones,Phones 17,171.38,2,0.15,291.35,208.86,82.49,Cash,C1184,Corporate,WINTER10,false,,46
+36,2025-08-17,Store-3,North,Online,P180,Sports,Fitness,Fitness 14,148.1,5,0,740.5,646.43,94.07,Wallet,C1145,Consumer,,false,,5
+37,2025-06-02,Store-1,North,Retail,P148,Electronics,Phones,Phones 15,113.91,1,0.15,96.82,77.86,18.96,Cash,C1067,Consumer,NEW20,false,,47
+38,2025-09-26,Store-3,South,Online,P108,Sports,Fitness,Fitness 16,54.18,1,0.05,51.47,34.51,16.96,Card,C1059,Small Business,NEW20,true,2025-10-03,4
+39,2025-07-30,Store-3,Central,Online,P180,Sports,Fitness,Fitness 7,20.11,2,0.05,38.21,25.84,12.37,Wallet,C1177,Corporate,,false,,0
+40,2025-07-30,Store-1,Central,Retail,P188,Electronics,Phones,Phones 7,136.76,3,0.15,348.74,239.12,109.62,Cash,C1119,Consumer,,false,,19
+41,2025-06-09,Store-2,North,Retail,P109,Home,Decor,Decor 17,193.78,4,0.05,736.36,527.27,209.09,Card,C1019,Small Business,,false,,47
+42,2025-08-05,Store-2,Central,Online,P180,Sports,Fitness,Fitness 17,59.52,1,0.05,56.54,37.85,18.69,Cash,C1100,Consumer,WINTER10,false,,31
+43,2025-08-25,Store-2,Central,Retail,P153,Electronics,Audio,Audio 12,78.34,1,0.05,74.42,44.69,29.73,Cash,C1101,Consumer,WINTER10,false,,47
+44,2025-07-06,Store-2,Central,Online,P149,Home,Decor,Decor 19,19.9,4,0.05,75.62,64.75,10.87,Cash,C1026,Consumer,VIP5,false,,15
+45,2025-07-03,Store-2,South,Retail,P198,Electronics,Audio,Audio 12,158.1,4,0,632.4,533.49,98.91,Wallet,C1102,Small Business,,false,,46
+46,2025-06-09,Store-1,South,Retail,P178,Home,Decor,Decor 5,130.68,3,0.1,352.84,216.89,135.95,Wallet,C1032,Consumer,NEW20,true,2025-06-15,18
+47,2025-07-07,Store-2,South,Retail,P183,Home,Decor,Decor 8,63.66,5,0.1,286.47,182.17,104.3,Wallet,C1041,Consumer,WINTER10,true,2025-07-16,14
+48,2025-07-26,Store-2,Central,Retail,P170,Electronics,Audio,Audio 7,52.6,2,0.05,99.94,76.63,23.31,Cash,C1061,Corporate,VIP5,false,,1
+49,2025-09-02,Store-2,Central,Retail,P126,Sports,Fitness,Fitness 13,57.7,1,0.1,51.93,35.48,16.45,Cash,C1032,Small Business,,false,,5
+50,2025-07-03,Store-1,Central,Retail,P155,Home,Decor,Decor 10,170.49,1,0,170.49,103.94,66.55,Wallet,C1195,Corporate,,true,2025-07-04,4
+51,2025-07-19,Store-3,Central,Retail,P113,Electronics,Audio,Audio 8,35.1,5,0,175.5,154.87,20.63,Wallet,C1179,Small Business,NEW20,false,,35
+52,2025-09-06,Store-1,North,Online,P172,Electronics,Audio,Audio 2,130.87,3,0,392.61,309.35,83.26,Wallet,C1162,Corporate,,false,,4
+53,2025-07-07,Store-3,South,Online,P133,Home,Decor,Decor 8,159.15,1,0,159.15,121.15,38.0,Cash,C1071,Corporate,WINTER10,true,2025-07-16,15
+54,2025-08-08,Store-1,North,Retail,P107,Home,Kitchen,Kitchen 1,42.85,4,0,171.4,116.07,55.33,Wallet,C1108,Corporate,WINTER10,true,2025-08-09,44
+55,2025-07-12,Store-3,Central,Retail,P125,Home,Decor,Decor 1,160.43,5,0,802.15,530.67,271.48,Card,C1079,Consumer,WINTER10,true,2025-07-16,16
+56,2025-09-04,Store-2,North,Retail,P123,Sports,Fitness,Fitness 8,99.59,1,0.15,84.65,54.51,30.14,Cash,C1013,Consumer,,false,,26
+57,2025-06-05,Store-3,North,Online,P157,Home,Decor,Decor 11,147.88,1,0,147.88,103.33,44.55,Card,C1167,Small Business,NEW20,false,,19
+58,2025-08-23,Store-3,Central,Retail,P156,Home,Kitchen,Kitchen 6,26.25,1,0.05,24.94,15.57,9.37,Cash,C1031,Small Business,WINTER10,true,2025-08-29,49
+59,2025-09-12,Store-2,Central,Online,P190,Electronics,Phones,Phones 16,43.16,5,0.1,194.22,127.78,66.44,Cash,C1188,Corporate,,true,2025-09-16,40
+60,2025-09-05,Store-2,North,Retail,P159,Electronics,Phones,Phones 3,161.65,1,0.05,153.57,101.12,52.45,Card,C1155,Corporate,VIP5,false,,21
+61,2025-08-16,Store-1,Central,Retail,P138,Home,Kitchen,Kitchen 1,145.71,5,0,728.55,442.43,286.12,Card,C1027,Corporate,NEW20,true,2025-08-21,27
+62,2025-09-11,Store-2,North,Retail,P101,Electronics,Audio,Audio 10,165.44,2,0.15,281.25,188.67,92.58,Cash,C1117,Corporate,,false,,32
+63,2025-06-24,Store-2,North,Online,P108,Home,Decor,Decor 2,98.93,5,0.05,469.92,304.61,165.31,Cash,C1026,Consumer,VIP5,false,,13
+64,2025-06-11,Store-2,Central,Retail,P129,Electronics,Audio,Audio 5,86.28,5,0,431.4,355.64,75.76,Wallet,C1194,Consumer,VIP5,false,,17
+65,2025-08-10,Store-2,Central,Retail,P125,Home,Kitchen,Kitchen 15,53.25,2,0,106.5,68.8,37.7,Wallet,C1048,Corporate,,true,2025-08-15,15
+66,2025-08-02,Store-3,North,Online,P104,Home,Decor,Decor 4,5.88,2,0.1,10.58,9.25,1.33,Card,C1075,Consumer,,false,,12
+67,2025-08-14,Store-3,North,Online,P165,Home,Kitchen,Kitchen 6,92.58,3,0,277.74,175.46,102.28,Wallet,C1181,Small Business,VIP5,false,,2
+68,2025-07-16,Store-2,North,Online,P132,Electronics,Audio,Audio 2,121.89,2,0,243.78,206.15,37.63,Cash,C1173,Corporate,WINTER10,false,,4
+69,2025-06-25,Store-1,Central,Retail,P152,Electronics,Phones,Phones 4,160.19,5,0,800.95,634.16,166.79,Card,C1167,Consumer,NEW20,false,,26
+70,2025-07-05,Store-3,Central,Retail,P139,Electronics,Phones,Phones 19,177.32,4,0.1,638.35,386.5,251.85,Cash,C1164,Consumer,NEW20,true,2025-07-09,0
+71,2025-07-24,Store-1,Central,Online,P151,Electronics,Phones,Phones 19,177.15,4,0,708.6,452.79,255.81,Card,C1141,Consumer,NEW20,false,,36
+72,2025-08-17,Store-2,South,Online,P144,Electronics,Audio,Audio 10,36.55,2,0,73.1,46.25,26.85,Cash,C1192,Consumer,VIP5,false,,2
+73,2025-09-23,Store-2,Central,Online,P181,Sports,Fitness,Fitness 13,21.83,5,0,109.15,86.46,22.69,Card,C1158,Corporate,,false,,30
+74,2025-06-22,Store-3,North,Online,P166,Home,Decor,Decor 6,79.8,1,0,79.8,53.79,26.01,Wallet,C1049,Consumer,,false,,42
+75,2025-09-14,Store-2,North,Retail,P158,Sports,Fitness,Fitness 18,170.56,3,0.1,460.51,318.89,141.62,Card,C1108,Corporate,VIP5,true,2025-09-23,28
+76,2025-06-21,Store-1,North,Retail,P130,Home,Decor,Decor 15,153.9,4,0,615.6,519.05,96.55,Cash,C1027,Consumer,WINTER10,false,,27
+77,2025-07-15,Store-1,Central,Online,P181,Electronics,Phones,Phones 5,21.04,3,0.15,53.65,33.48,20.17,Wallet,C1096,Small Business,WINTER10,false,,4
+78,2025-08-16,Store-3,South,Online,P116,Electronics,Audio,Audio 16,61.14,2,0,122.28,75.77,46.51,Cash,C1156,Corporate,WINTER10,false,,39
+79,2025-07-04,Store-2,North,Retail,P161,Sports,Fitness,Fitness 7,120.42,5,0.15,511.79,343.52,168.27,Cash,C1009,Consumer,WINTER10,true,2025-07-07,40
+80,2025-09-26,Store-2,South,Retail,P121,Home,Decor,Decor 9,27.44,5,0,137.2,108.51,28.69,Cash,C1115,Small Business,,false,,16
+81,2025-08-06,Store-3,Central,Retail,P148,Home,Kitchen,Kitchen 12,117.59,3,0.05,335.13,277.95,57.18,Cash,C1058,Consumer,,false,,18
+82,2025-09-11,Store-3,Central,Retail,P184,Sports,Fitness,Fitness 11,147.94,1,0,147.94,95.39,52.55,Wallet,C1160,Corporate,NEW20,false,,3
+83,2025-06-15,Store-2,North,Online,P106,Electronics,Phones,Phones 1,115.59,3,0,346.77,262.48,84.29,Wallet,C1057,Corporate,,false,,37
+84,2025-06-16,Store-1,Central,Retail,P117,Electronics,Audio,Audio 1,187.64,2,0,375.28,275.93,99.35,Card,C1163,Consumer,VIP5,true,2025-06-21,0
+85,2025-06-06,Store-3,South,Retail,P182,Sports,Fitness,Fitness 19,91.53,5,0.1,411.88,277.83,134.05,Card,C1011,Consumer,,false,,25
+86,2025-06-22,Store-1,North,Online,P101,Electronics,Phones,Phones 20,112.43,2,0,224.86,162.79,62.07,Wallet,C1155,Small Business,,true,2025-07-02,11
+87,2025-08-03,Store-2,North,Retail,P192,Electronics,Phones,Phones 16,144.5,1,0.1,130.05,110.98,19.07,Wallet,C1119,Consumer,NEW20,false,,14
+88,2025-06-12,Store-2,North,Online,P142,Electronics,Phones,Phones 9,143.78,3,0.15,366.64,294.69,71.95,Wallet,C1133,Corporate,VIP5,false,,5
+89,2025-09-19,Store-3,North,Online,P130,Home,Kitchen,Kitchen 7,189.22,3,0,567.66,490.49,77.17,Cash,C1153,Consumer,NEW20,true,2025-09-27,33
+90,2025-08-27,Store-1,North,Retail,P173,Electronics,Audio,Audio 10,158.89,4,0.15,540.23,419.0,121.23,Wallet,C1043,Consumer,,false,,7
+91,2025-06-12,Store-3,North,Retail,P189,Electronics,Audio,Audio 1,11.02,2,0,22.04,17.83,4.21,Wallet,C1011,Consumer,,false,,12
+92,2025-09-11,Store-3,South,Online,P113,Home,Decor,Decor 8,45.12,1,0,45.12,27.54,17.58,Wallet,C1022,Small Business,VIP5,true,2025-09-13,8
+93,2025-06-11,Store-3,North,Retail,P143,Home,Kitchen,Kitchen 14,55.93,3,0.05,159.4,140.12,19.28,Card,C1183,Corporate,VIP5,true,2025-06-16,39
+94,2025-09-02,Store-1,Central,Online,P166,Home,Decor,Decor 4,72.62,1,0.15,61.73,47.52,14.21,Wallet,C1023,Small Business,VIP5,false,,27
+95,2025-05-30,Store-3,North,Retail,P100,Electronics,Phones,Phones 12,100.71,4,0,402.84,358.59,44.25,Wallet,C1088,Small Business,VIP5,false,,18
+96,2025-09-11,Store-1,South,Online,P121,Home,Decor,Decor 4,188.05,1,0.1,169.25,141.56,27.69,Wallet,C1143,Consumer,VIP5,false,,6
+97,2025-07-20,Store-2,South,Online,P182,Home,Decor,Decor 1,77.53,3,0.05,220.96,160.95,60.01,Wallet,C1128,Consumer,NEW20,false,,29
+98,2025-06-15,Store-3,South,Online,P174,Home,Kitchen,Kitchen 11,106.74,4,0.15,362.92,298.54,64.38,Card,C1118,Corporate,VIP5,false,,8
+99,2025-07-11,Store-2,South,Online,P124,Sports,Fitness,Fitness 9,63.79,5,0,318.95,260.58,58.37,Card,C1185,Corporate,,false,,10
+100,2025-06-29,Store-2,North,Retail,P121,Electronics,Phones,Phones 4,43.11,2,0,86.22,72.29,13.93,Wallet,C1076,Corporate,VIP5,false,,6
+101,2025-08-19,Store-1,Central,Online,P159,Home,Decor,Decor 2,7.46,4,0,29.84,22.38,7.46,Wallet,C1075,Corporate,,false,,16
+102,2025-08-15,Store-3,Central,Online,P155,Electronics,Audio,Audio 19,119.55,4,0,478.2,382.74,95.46,Wallet,C1198,Small Business,,false,,43
+103,2025-06-22,Store-3,North,Retail,P140,Home,Decor,Decor 9,127.51,1,0.1,114.76,77.2,37.56,Cash,C1182,Small Business,WINTER10,false,,27
+104,2025-07-30,Store-2,North,Retail,P186,Sports,Fitness,Fitness 6,179.43,3,0,538.29,385.75,152.54,Cash,C1027,Consumer,VIP5,false,,10
+105,2025-08-29,Store-1,South,Retail,P173,Electronics,Phones,Phones 15,110.5,4,0.15,375.7,227.24,148.46,Cash,C1133,Corporate,NEW20,true,2025-09-02,43
+106,2025-06-22,Store-2,South,Online,P145,Sports,Fitness,Fitness 2,54.23,4,0.1,195.23,120.74,74.49,Card,C1107,Corporate,VIP5,false,,6
+107,2025-06-27,Store-2,South,Retail,P128,Sports,Fitness,Fitness 13,95.11,2,0,190.22,167.17,23.05,Card,C1162,Consumer,NEW20,false,,9
+108,2025-07-14,Store-3,South,Retail,P137,Home,Decor,Decor 18,131.67,4,0.05,500.35,417.83,82.52,Card,C1068,Small Business,NEW20,false,,27
+109,2025-08-24,Store-1,Central,Online,P145,Home,Kitchen,Kitchen 8,132.61,3,0.1,358.05,266.92,91.13,Wallet,C1163,Consumer,VIP5,false,,19
+110,2025-09-16,Store-2,North,Online,P141,Sports,Fitness,Fitness 5,108.48,3,0.15,276.62,167.22,109.4,Card,C1053,Consumer,VIP5,false,,38
+111,2025-06-11,Store-3,North,Online,P199,Electronics,Audio,Audio 15,72.56,2,0,145.12,126.43,18.69,Wallet,C1042,Small Business,,false,,42
+112,2025-09-22,Store-3,South,Retail,P163,Electronics,Audio,Audio 7,108.51,4,0,434.04,332.7,101.34,Cash,C1107,Consumer,WINTER10,true,2025-09-30,35
+113,2025-06-06,Store-2,Central,Online,P131,Home,Decor,Decor 16,37.1,5,0,185.5,120.22,65.28,Cash,C1119,Small Business,,true,2025-06-11,29
+114,2025-07-16,Store-2,Central,Online,P181,Electronics,Audio,Audio 12,129.04,1,0,129.04,101.03,28.01,Wallet,C1188,Corporate,,true,2025-07-24,48
+115,2025-09-21,Store-1,North,Online,P180,Home,Decor,Decor 5,71.03,3,0.05,202.44,150.28,52.16,Wallet,C1141,Consumer,VIP5,true,2025-09-27,27
+116,2025-07-01,Store-3,North,Retail,P145,Home,Kitchen,Kitchen 16,83.73,5,0.05,397.72,342.79,54.93,Cash,C1052,Small Business,NEW20,false,,21
+117,2025-06-23,Store-2,South,Retail,P175,Electronics,Audio,Audio 3,157.92,1,0.1,142.13,116.09,26.04,Cash,C1139,Small Business,,true,2025-06-28,6
+118,2025-05-30,Store-1,North,Retail,P198,Sports,Fitness,Fitness 2,158.86,5,0.15,675.16,481.26,193.9,Card,C1160,Small Business,,false,,13
+119,2025-06-04,Store-3,South,Retail,P112,Electronics,Audio,Audio 6,174.5,4,0,698.0,610.21,87.79,Wallet,C1003,Corporate,WINTER10,false,,35
+120,2025-08-28,Store-2,Central,Online,P104,Home,Decor,Decor 11,8.98,5,0.15,38.17,33.6,4.57,Card,C1127,Small Business,,false,,7
+121,2025-09-06,Store-2,South,Retail,P108,Home,Decor,Decor 1,137.59,5,0.15,584.76,525.08,59.68,Wallet,C1039,Corporate,NEW20,false,,5
+122,2025-08-20,Store-2,North,Online,P154,Electronics,Phones,Phones 1,6.82,1,0,6.82,4.54,2.28,Card,C1033,Corporate,,false,,46
+123,2025-08-10,Store-1,Central,Online,P146,Electronics,Phones,Phones 5,147.3,1,0.05,139.94,110.35,29.59,Wallet,C1127,Corporate,VIP5,false,,45
+124,2025-06-03,Store-1,North,Online,P110,Sports,Fitness,Fitness 13,65.66,5,0,328.3,291.3,37.0,Cash,C1155,Consumer,VIP5,false,,36
+125,2025-08-31,Store-2,Central,Online,P114,Electronics,Audio,Audio 12,191.01,2,0.1,343.82,255.49,88.33,Cash,C1069,Small Business,VIP5,false,,17
+126,2025-06-06,Store-3,South,Retail,P192,Sports,Fitness,Fitness 1,167.1,5,0.05,793.72,615.45,178.27,Card,C1096,Corporate,NEW20,false,,28
+127,2025-07-05,Store-3,North,Retail,P134,Home,Kitchen,Kitchen 14,35.67,1,0.05,33.89,28.81,5.08,Wallet,C1037,Corporate,,true,2025-07-11,34
+128,2025-06-09,Store-3,South,Retail,P125,Home,Decor,Decor 8,65.35,1,0.1,58.81,43.5,15.31,Card,C1065,Small Business,,true,2025-06-17,34
+129,2025-06-10,Store-3,Central,Online,P150,Electronics,Audio,Audio 19,106.6,3,0.15,271.83,189.27,82.56,Wallet,C1150,Consumer,WINTER10,false,,12
+130,2025-06-10,Store-1,South,Retail,P173,Home,Kitchen,Kitchen 19,74.98,5,0,374.9,252.64,122.26,Cash,C1095,Consumer,VIP5,true,2025-06-12,9
+131,2025-07-09,Store-3,North,Retail,P166,Home,Kitchen,Kitchen 20,9.01,1,0,9.01,8.08,0.93,Wallet,C1124,Small Business,,false,,16
+132,2025-09-25,Store-2,Central,Online,P198,Home,Decor,Decor 19,164.67,2,0.05,312.87,266.92,45.95,Cash,C1051,Consumer,NEW20,false,,1
+133,2025-06-05,Store-1,South,Retail,P162,Home,Decor,Decor 3,173.28,4,0,693.12,562.75,130.37,Card,C1065,Corporate,,false,,41
+134,2025-06-10,Store-3,South,Retail,P157,Electronics,Audio,Audio 6,77.33,2,0,154.66,100.78,53.88,Cash,C1090,Consumer,,false,,3
+135,2025-07-02,Store-3,South,Retail,P112,Electronics,Phones,Phones 5,66.95,1,0,66.95,53.77,13.18,Cash,C1150,Small Business,NEW20,false,,30
+136,2025-07-10,Store-2,Central,Retail,P147,Electronics,Phones,Phones 16,79.03,4,0,316.12,266.26,49.86,Wallet,C1003,Corporate,WINTER10,false,,10
+137,2025-09-25,Store-1,North,Retail,P199,Electronics,Audio,Audio 15,191.8,4,0,767.2,604.95,162.25,Cash,C1086,Corporate,WINTER10,true,2025-09-27,40
+138,2025-07-15,Store-1,Central,Online,P123,Electronics,Phones,Phones 15,112.91,2,0.1,203.24,175.03,28.21,Cash,C1107,Corporate,WINTER10,false,,1
+139,2025-07-03,Store-3,Central,Retail,P133,Electronics,Audio,Audio 16,26.3,4,0.1,94.68,60.05,34.63,Wallet,C1014,Small Business,WINTER10,true,2025-07-08,7
+140,2025-07-01,Store-1,Central,Retail,P130,Home,Kitchen,Kitchen 8,24.03,3,0.1,64.88,56.37,8.51,Card,C1185,Corporate,WINTER10,false,,28
+141,2025-09-10,Store-3,Central,Online,P100,Home,Decor,Decor 17,60.85,3,0.1,164.3,100.58,63.72,Cash,C1055,Corporate,,false,,8
+142,2025-09-14,Store-1,South,Online,P125,Electronics,Audio,Audio 20,20.46,1,0.15,17.39,14.25,3.14,Cash,C1044,Consumer,WINTER10,false,,37
+143,2025-07-08,Store-1,North,Online,P152,Sports,Fitness,Fitness 2,106.1,3,0.05,302.38,206.99,95.39,Wallet,C1126,Consumer,,true,2025-07-16,8
+144,2025-09-18,Store-3,Central,Online,P172,Electronics,Audio,Audio 12,12.15,3,0.15,30.98,24.12,6.86,Card,C1091,Small Business,NEW20,false,,7
+145,2025-07-14,Store-3,North,Retail,P173,Home,Decor,Decor 2,61.85,1,0.1,55.66,40.85,14.81,Card,C1135,Small Business,WINTER10,false,,15
+146,2025-06-10,Store-1,South,Online,P113,Electronics,Audio,Audio 10,53.84,1,0,53.84,33.86,19.98,Wallet,C1189,Consumer,VIP5,false,,38
+147,2025-08-19,Store-3,Central,Online,P113,Home,Decor,Decor 12,174.56,2,0,349.12,238.07,111.05,Cash,C1126,Small Business,,false,,7
+148,2025-06-14,Store-1,Central,Online,P175,Sports,Fitness,Fitness 8,172.91,2,0.15,293.95,217.12,76.83,Cash,C1042,Consumer,NEW20,true,2025-06-24,38
+149,2025-08-05,Store-1,Central,Online,P143,Home,Kitchen,Kitchen 13,51.87,3,0.1,140.05,119.45,20.6,Wallet,C1082,Corporate,,false,,20
+150,2025-08-04,Store-1,South,Retail,P154,Electronics,Audio,Audio 1,76.06,5,0,380.3,236.08,144.22,Cash,C1051,Small Business,,false,,8
+151,2025-07-22,Store-2,Central,Online,P104,Electronics,Phones,Phones 20,56.83,5,0.05,269.94,212.84,57.1,Card,C1159,Consumer,VIP5,false,,33
+152,2025-05-31,Store-2,North,Online,P114,Home,Kitchen,Kitchen 10,72.77,2,0,145.54,89.96,55.58,Wallet,C1068,Consumer,NEW20,false,,28
+153,2025-06-14,Store-3,North,Retail,P173,Home,Decor,Decor 10,58.45,1,0.15,49.68,34.09,15.59,Cash,C1156,Small Business,,false,,41
+154,2025-07-18,Store-1,South,Retail,P170,Home,Decor,Decor 10,124.5,4,0.05,473.1,288.25,184.85,Cash,C1056,Consumer,,true,2025-07-28,25
+155,2025-05-31,Store-2,North,Online,P171,Home,Kitchen,Kitchen 11,100.82,3,0,302.46,208.29,94.17,Card,C1040,Small Business,,false,,28
+156,2025-08-22,Store-1,South,Retail,P145,Home,Decor,Decor 4,106.58,2,0.1,191.84,134.5,57.34,Cash,C1035,Small Business,WINTER10,false,,33
+157,2025-06-11,Store-3,South,Retail,P180,Home,Kitchen,Kitchen 5,85.54,1,0,85.54,61.86,23.68,Wallet,C1149,Consumer,NEW20,true,2025-06-21,9
+158,2025-07-22,Store-2,South,Online,P157,Home,Decor,Decor 15,61.17,3,0.05,174.33,123.06,51.27,Wallet,C1142,Small Business,NEW20,false,,0
+159,2025-09-07,Store-3,Central,Retail,P138,Home,Decor,Decor 6,109.69,2,0.1,197.44,152.55,44.89,Wallet,C1059,Consumer,VIP5,false,,38
+160,2025-09-14,Store-1,Central,Online,P101,Home,Decor,Decor 1,14.25,5,0.1,64.12,44.24,19.88,Wallet,C1198,Corporate,,true,2025-09-23,33
+161,2025-08-31,Store-3,Central,Retail,P145,Home,Decor,Decor 2,120.97,3,0.1,326.62,288.85,37.77,Wallet,C1017,Small Business,WINTER10,false,,26
+162,2025-07-16,Store-3,Central,Online,P153,Electronics,Audio,Audio 16,83.32,5,0.15,354.11,248.93,105.18,Wallet,C1191,Consumer,WINTER10,false,,20
+163,2025-07-15,Store-1,Central,Online,P183,Electronics,Phones,Phones 10,139.53,5,0.1,627.88,495.6,132.28,Wallet,C1074,Small Business,WINTER10,false,,26
+164,2025-06-22,Store-1,South,Online,P172,Home,Kitchen,Kitchen 2,139.89,1,0,139.89,96.81,43.08,Wallet,C1141,Consumer,VIP5,true,2025-06-24,37
+165,2025-05-31,Store-3,North,Online,P163,Electronics,Audio,Audio 18,115.57,5,0.15,491.17,441.63,49.54,Wallet,C1050,Corporate,,false,,9
+166,2025-06-19,Store-3,South,Online,P112,Electronics,Phones,Phones 3,38.25,5,0.1,172.12,145.78,26.34,Wallet,C1110,Consumer,,false,,9
+167,2025-08-29,Store-1,Central,Retail,P104,Electronics,Audio,Audio 9,127.6,5,0,638.0,449.58,188.42,Cash,C1159,Corporate,,false,,14
+168,2025-09-20,Store-2,South,Online,P106,Home,Decor,Decor 20,51.47,2,0,102.94,66.69,36.25,Wallet,C1044,Corporate,,true,2025-09-25,26
+169,2025-08-15,Store-2,Central,Online,P186,Electronics,Audio,Audio 13,136.61,5,0,683.05,494.56,188.49,Cash,C1182,Corporate,,false,,5
+170,2025-06-21,Store-1,Central,Retail,P100,Electronics,Audio,Audio 10,82.23,3,0,246.69,172.81,73.88,Cash,C1085,Corporate,,false,,27
+171,2025-09-12,Store-2,South,Online,P124,Home,Decor,Decor 15,60.3,2,0.1,108.54,66.26,42.28,Wallet,C1006,Corporate,WINTER10,false,,45
+172,2025-06-15,Store-1,North,Retail,P116,Sports,Fitness,Fitness 18,91.45,2,0,182.9,129.93,52.97,Card,C1184,Corporate,NEW20,false,,19
+173,2025-07-29,Store-3,North,Online,P186,Home,Decor,Decor 5,188.71,3,0.15,481.21,418.6,62.61,Wallet,C1094,Small Business,WINTER10,true,2025-08-08,32
+174,2025-06-26,Store-1,North,Online,P134,Sports,Fitness,Fitness 13,10.6,5,0,53.0,36.74,16.26,Cash,C1181,Consumer,WINTER10,false,,20
+175,2025-06-23,Store-3,North,Online,P146,Sports,Fitness,Fitness 17,152.9,2,0,305.8,249.42,56.38,Card,C1057,Corporate,WINTER10,true,2025-06-28,22
+176,2025-07-20,Store-2,South,Online,P122,Home,Kitchen,Kitchen 1,76.48,3,0.1,206.5,125.47,81.03,Wallet,C1179,Corporate,WINTER10,true,2025-07-26,40
+177,2025-06-11,Store-1,Central,Online,P177,Home,Kitchen,Kitchen 8,143.95,1,0.1,129.56,79.29,50.27,Card,C1110,Consumer,VIP5,false,,24
+178,2025-09-01,Store-1,South,Retail,P172,Electronics,Audio,Audio 8,116.18,5,0.05,551.86,484.37,67.49,Wallet,C1175,Small Business,VIP5,false,,7
+179,2025-09-13,Store-3,Central,Online,P177,Sports,Fitness,Fitness 2,194.96,1,0,194.96,163.27,31.69,Card,C1198,Corporate,,true,2025-09-20,47
+180,2025-08-16,Store-1,Central,Online,P154,Home,Kitchen,Kitchen 15,186.39,5,0.1,838.75,631.24,207.51,Wallet,C1178,Consumer,NEW20,false,,31
+181,2025-09-04,Store-1,North,Retail,P169,Electronics,Audio,Audio 6,194.04,2,0.15,329.87,223.68,106.19,Card,C1043,Corporate,VIP5,true,2025-09-06,12
+182,2025-08-19,Store-2,North,Online,P185,Home,Decor,Decor 16,51.39,2,0,102.78,77.56,25.22,Cash,C1034,Small Business,VIP5,false,,8
+183,2025-09-20,Store-3,North,Online,P180,Home,Kitchen,Kitchen 4,111.91,2,0,223.82,174.49,49.33,Cash,C1196,Corporate,WINTER10,false,,44
+184,2025-07-06,Store-1,Central,Retail,P105,Electronics,Audio,Audio 2,179.68,3,0,539.04,341.31,197.73,Cash,C1114,Consumer,WINTER10,false,,28
+185,2025-07-28,Store-3,Central,Retail,P171,Electronics,Audio,Audio 3,13.89,4,0.1,50.0,31.26,18.74,Wallet,C1084,Small Business,,false,,6
+186,2025-08-20,Store-2,Central,Retail,P169,Electronics,Audio,Audio 11,6.62,1,0.05,6.29,4.96,1.33,Wallet,C1167,Small Business,VIP5,false,,5
+187,2025-06-16,Store-3,North,Online,P118,Home,Decor,Decor 10,76.74,5,0,383.7,241.98,141.72,Wallet,C1079,Small Business,,false,,24
+188,2025-06-22,Store-3,Central,Retail,P147,Electronics,Audio,Audio 5,112.47,3,0.05,320.54,215.34,105.2,Card,C1027,Small Business,NEW20,false,,13
+189,2025-08-01,Store-2,Central,Online,P177,Home,Kitchen,Kitchen 19,127.17,2,0,254.34,165.09,89.25,Cash,C1163,Corporate,,false,,28
+190,2025-07-30,Store-1,North,Retail,P104,Electronics,Phones,Phones 20,171.79,5,0.1,773.05,497.03,276.02,Card,C1169,Consumer,,true,2025-08-05,4
+191,2025-07-25,Store-1,South,Online,P148,Electronics,Audio,Audio 10,5.82,5,0.05,27.64,21.29,6.35,Cash,C1021,Small Business,VIP5,true,2025-08-01,34
+192,2025-09-23,Store-3,North,Retail,P179,Sports,Fitness,Fitness 3,163.17,1,0.05,155.01,121.33,33.68,Cash,C1144,Small Business,NEW20,false,,30
+193,2025-08-22,Store-3,North,Retail,P167,Home,Kitchen,Kitchen 1,170.38,2,0.1,306.68,247.62,59.06,Card,C1169,Small Business,VIP5,true,2025-08-28,33
+194,2025-06-29,Store-3,Central,Retail,P114,Home,Kitchen,Kitchen 8,40.2,2,0.15,68.34,56.38,11.96,Card,C1064,Small Business,,false,,33
+195,2025-08-23,Store-2,South,Retail,P170,Electronics,Audio,Audio 15,49.18,5,0,245.9,201.8,44.1,Wallet,C1145,Consumer,NEW20,false,,28
+196,2025-06-16,Store-3,South,Online,P113,Sports,Fitness,Fitness 15,166.89,4,0.15,567.43,369.61,197.82,Card,C1144,Corporate,,false,,23
+197,2025-09-06,Store-3,North,Retail,P106,Electronics,Audio,Audio 12,13.14,5,0,65.7,48.48,17.22,Card,C1181,Consumer,NEW20,false,,39
+198,2025-09-18,Store-1,South,Online,P121,Home,Kitchen,Kitchen 12,150.36,3,0,451.08,382.38,68.7,Card,C1061,Corporate,,false,,46
+199,2025-07-31,Store-1,South,Retail,P145,Electronics,Phones,Phones 18,68.84,5,0,344.2,210.05,134.15,Wallet,C1062,Corporate,VIP5,false,,44
+200,2025-07-26,Store-1,South,Retail,P102,Electronics,Phones,Phones 16,26.53,3,0,79.59,51.34,28.25,Cash,C1175,Small Business,NEW20,false,,37
+201,2025-09-19,Store-2,South,Retail,P101,Home,Decor,Decor 1,71.76,2,0.1,129.17,96.95,32.22,Card,C1009,Consumer,WINTER10,true,2025-09-27,10
+202,2025-08-26,Store-2,Central,Online,P166,Sports,Fitness,Fitness 3,75.38,5,0,376.9,261.33,115.57,Card,C1150,Small Business,,false,,10
+203,2025-09-11,Store-2,South,Retail,P173,Home,Kitchen,Kitchen 15,80.64,3,0.05,229.82,138.3,91.52,Wallet,C1123,Corporate,WINTER10,false,,15
+204,2025-07-27,Store-3,North,Online,P134,Electronics,Audio,Audio 13,58.3,5,0.05,276.93,195.8,81.13,Wallet,C1135,Small Business,WINTER10,false,,35
+205,2025-09-22,Store-1,North,Retail,P181,Sports,Fitness,Fitness 4,75.77,3,0,227.31,195.91,31.4,Card,C1174,Consumer,VIP5,false,,47
+206,2025-07-15,Store-3,South,Online,P170,Home,Kitchen,Kitchen 13,70.21,3,0.05,200.1,173.11,26.99,Cash,C1128,Corporate,WINTER10,false,,22
+207,2025-06-18,Store-1,North,Online,P151,Home,Decor,Decor 15,82.23,3,0,246.69,191.44,55.25,Card,C1077,Small Business,VIP5,false,,46
+208,2025-08-11,Store-3,South,Retail,P124,Electronics,Phones,Phones 19,185.33,5,0,926.65,640.57,286.08,Cash,C1119,Corporate,NEW20,false,,31
+209,2025-07-09,Store-1,Central,Retail,P102,Sports,Fitness,Fitness 6,127.16,2,0,254.32,169.25,85.07,Cash,C1114,Consumer,,false,,32
+210,2025-08-20,Store-1,North,Online,P116,Electronics,Phones,Phones 20,14.48,1,0.15,12.31,8.65,3.66,Card,C1001,Consumer,VIP5,false,,40
+211,2025-07-10,Store-1,North,Retail,P195,Home,Kitchen,Kitchen 1,131.54,4,0.15,447.24,359.44,87.8,Cash,C1044,Consumer,NEW20,false,,5
+212,2025-08-18,Store-3,Central,Retail,P151,Sports,Fitness,Fitness 9,188.35,1,0,188.35,165.29,23.06,Wallet,C1167,Corporate,,true,2025-08-28,45
+213,2025-08-30,Store-2,North,Online,P119,Electronics,Phones,Phones 7,32.82,1,0.05,31.18,26.32,4.86,Cash,C1088,Small Business,,false,,42
+214,2025-08-15,Store-3,Central,Online,P133,Sports,Fitness,Fitness 16,153.85,3,0.15,392.32,350.43,41.89,Cash,C1143,Corporate,VIP5,false,,8
+215,2025-07-01,Store-1,South,Retail,P183,Electronics,Phones,Phones 12,34.37,2,0.1,61.87,51.17,10.7,Card,C1007,Small Business,WINTER10,false,,3
+216,2025-08-07,Store-3,North,Online,P177,Home,Kitchen,Kitchen 12,148.83,2,0,297.66,225.79,71.87,Cash,C1199,Small Business,WINTER10,true,2025-08-15,13
+217,2025-08-19,Store-2,Central,Retail,P141,Electronics,Audio,Audio 1,26.02,1,0,26.02,21.91,4.11,Cash,C1172,Corporate,,false,,36
+218,2025-07-17,Store-2,Central,Online,P132,Electronics,Phones,Phones 1,56.15,4,0,224.6,150.35,74.25,Card,C1083,Corporate,VIP5,false,,31
+219,2025-06-26,Store-3,North,Retail,P196,Home,Kitchen,Kitchen 5,165.45,3,0,496.35,347.18,149.17,Cash,C1063,Consumer,VIP5,true,2025-06-30,37
+220,2025-06-05,Store-1,South,Retail,P199,Electronics,Phones,Phones 15,40.55,2,0.05,77.04,62.06,14.98,Card,C1038,Consumer,WINTER10,false,,9
+221,2025-08-02,Store-3,Central,Online,P159,Electronics,Audio,Audio 13,22.6,3,0.1,61.02,52.76,8.26,Card,C1149,Consumer,WINTER10,false,,2
+222,2025-06-16,Store-3,South,Online,P155,Sports,Fitness,Fitness 4,147.06,1,0.05,139.71,86.53,53.18,Card,C1030,Corporate,WINTER10,true,2025-06-17,11
+223,2025-06-27,Store-3,South,Online,P164,Sports,Fitness,Fitness 4,108.34,4,0,433.36,305.45,127.91,Card,C1057,Small Business,,false,,45
+224,2025-06-21,Store-1,Central,Retail,P105,Electronics,Phones,Phones 7,104.21,4,0.15,354.31,313.77,40.54,Cash,C1002,Corporate,,true,2025-06-30,18
+225,2025-08-08,Store-2,South,Retail,P151,Home,Kitchen,Kitchen 14,67.06,4,0.1,241.42,215.32,26.1,Cash,C1194,Corporate,NEW20,false,,40
+226,2025-05-30,Store-1,South,Retail,P193,Sports,Fitness,Fitness 13,198.25,2,0,396.5,248.23,148.27,Wallet,C1200,Consumer,,true,2025-06-08,20
+227,2025-08-25,Store-3,Central,Retail,P173,Home,Decor,Decor 1,97.33,4,0.15,330.92,232.54,98.38,Wallet,C1097,Consumer,NEW20,false,,45
+228,2025-06-07,Store-2,South,Retail,P184,Sports,Fitness,Fitness 11,19.04,5,0,95.2,83.51,11.69,Cash,C1067,Corporate,VIP5,true,2025-06-17,14
+229,2025-06-17,Store-1,South,Retail,P126,Sports,Fitness,Fitness 17,37.98,3,0,113.94,91.39,22.55,Card,C1169,Corporate,WINTER10,false,,20
+230,2025-07-17,Store-2,Central,Online,P119,Home,Decor,Decor 9,78.15,3,0.05,222.73,177.94,44.79,Wallet,C1133,Corporate,NEW20,false,,17
+231,2025-07-19,Store-2,Central,Online,P181,Home,Decor,Decor 16,147.48,2,0.15,250.72,161.71,89.01,Wallet,C1033,Corporate,NEW20,false,,39
+232,2025-07-16,Store-3,Central,Retail,P102,Home,Kitchen,Kitchen 18,44.17,5,0.05,209.81,129.52,80.29,Card,C1078,Small Business,,false,,20
+233,2025-07-01,Store-1,Central,Retail,P167,Electronics,Phones,Phones 16,172.48,2,0,344.96,250.77,94.19,Cash,C1158,Corporate,,true,2025-07-08,23
+234,2025-06-04,Store-3,Central,Retail,P182,Home,Decor,Decor 20,163.11,3,0,489.33,350.17,139.16,Wallet,C1033,Small Business,WINTER10,false,,4
+235,2025-08-23,Store-1,Central,Online,P196,Electronics,Phones,Phones 15,78.98,5,0.1,355.41,266.19,89.22,Wallet,C1193,Consumer,,true,2025-08-31,44
+236,2025-09-14,Store-2,Central,Retail,P108,Electronics,Audio,Audio 15,82.53,2,0.15,140.3,115.87,24.43,Card,C1171,Consumer,WINTER10,true,2025-09-23,2
+237,2025-09-25,Store-3,Central,Retail,P198,Home,Decor,Decor 15,28.03,2,0,56.06,43.24,12.82,Card,C1026,Corporate,,false,,36
+238,2025-07-27,Store-1,South,Online,P161,Home,Kitchen,Kitchen 2,112.32,4,0.15,381.89,245.2,136.69,Cash,C1012,Small Business,WINTER10,false,,21
+239,2025-06-23,Store-3,North,Online,P135,Sports,Fitness,Fitness 17,56.16,3,0.1,151.63,102.58,49.05,Cash,C1142,Corporate,,true,2025-06-24,19
+240,2025-07-07,Store-1,Central,Retail,P132,Sports,Fitness,Fitness 10,44.39,1,0,44.39,33.78,10.61,Cash,C1118,Small Business,NEW20,false,,23
+241,2025-09-26,Store-2,North,Retail,P184,Sports,Fitness,Fitness 2,147.21,1,0.15,125.13,77.62,47.51,Wallet,C1082,Consumer,VIP5,false,,50
+242,2025-07-25,Store-2,North,Online,P178,Sports,Fitness,Fitness 15,84.17,4,0,336.68,290.7,45.98,Card,C1046,Corporate,,false,,8
+243,2025-09-17,Store-1,South,Retail,P101,Electronics,Audio,Audio 18,148.75,2,0.1,267.75,178.39,89.36,Wallet,C1172,Small Business,VIP5,false,,34
+244,2025-09-14,Store-1,North,Online,P112,Sports,Fitness,Fitness 15,23.57,1,0,23.57,17.07,6.5,Wallet,C1065,Small Business,NEW20,true,2025-09-17,3
+245,2025-09-25,Store-3,North,Online,P157,Electronics,Audio,Audio 10,152.84,5,0.05,725.99,589.56,136.43,Wallet,C1039,Corporate,VIP5,false,,35
+246,2025-09-14,Store-1,North,Online,P104,Home,Decor,Decor 11,79.1,3,0,237.3,189.0,48.3,Wallet,C1023,Consumer,NEW20,false,,46
+247,2025-06-22,Store-2,Central,Retail,P104,Electronics,Phones,Phones 12,28.81,2,0.15,48.98,37.12,11.86,Cash,C1125,Corporate,,true,2025-06-24,12
+248,2025-07-31,Store-2,Central,Online,P117,Electronics,Audio,Audio 16,57.88,2,0.15,98.4,86.33,12.07,Card,C1148,Small Business,,false,,22
+249,2025-06-23,Store-1,South,Retail,P122,Electronics,Phones,Phones 11,73.29,4,0,293.16,204.88,88.28,Cash,C1045,Consumer,VIP5,false,,46
+250,2025-08-09,Store-2,North,Online,P176,Electronics,Audio,Audio 13,94.97,1,0,94.97,71.61,23.36,Card,C1105,Small Business,WINTER10,true,2025-08-19,22
+251,2025-06-08,Store-2,South,Online,P121,Home,Kitchen,Kitchen 3,69.67,4,0.05,264.75,170.69,94.06,Card,C1027,Consumer,,false,,31
+252,2025-07-03,Store-3,South,Online,P159,Home,Kitchen,Kitchen 8,36.99,5,0,184.95,139.09,45.86,Cash,C1050,Corporate,NEW20,false,,8
+253,2025-09-23,Store-1,South,Online,P101,Electronics,Phones,Phones 4,188.95,4,0.15,642.43,426.11,216.32,Wallet,C1058,Consumer,WINTER10,false,,16
+254,2025-06-02,Store-2,Central,Online,P172,Home,Kitchen,Kitchen 4,21.44,5,0,107.2,71.84,35.36,Wallet,C1198,Small Business,,false,,4
+255,2025-08-14,Store-2,North,Online,P179,Electronics,Audio,Audio 6,163.86,3,0,491.58,414.48,77.1,Cash,C1151,Consumer,,false,,26
+256,2025-09-07,Store-2,North,Online,P118,Electronics,Audio,Audio 17,137.37,2,0.05,261.0,216.9,44.1,Card,C1050,Consumer,VIP5,false,,0
+257,2025-09-08,Store-2,North,Retail,P199,Sports,Fitness,Fitness 11,182.08,5,0,910.4,600.6,309.8,Wallet,C1012,Corporate,NEW20,false,,41
+258,2025-08-29,Store-2,South,Online,P186,Home,Decor,Decor 16,31.31,3,0,93.93,77.35,16.58,Wallet,C1151,Consumer,NEW20,true,2025-09-07,19
+259,2025-09-02,Store-3,South,Online,P132,Electronics,Phones,Phones 8,51.82,5,0.1,233.19,179.2,53.99,Cash,C1147,Small Business,,true,2025-09-09,50
+260,2025-08-18,Store-3,Central,Retail,P111,Home,Decor,Decor 8,132.23,3,0.15,337.19,293.77,43.42,Cash,C1078,Consumer,VIP5,true,2025-08-28,1
+261,2025-06-13,Store-2,Central,Retail,P138,Sports,Fitness,Fitness 15,33.44,5,0,167.2,104.49,62.71,Cash,C1119,Small Business,,false,,21
+262,2025-06-10,Store-2,North,Retail,P184,Home,Decor,Decor 18,162.39,1,0,162.39,130.71,31.68,Card,C1096,Consumer,NEW20,false,,21
+263,2025-06-18,Store-2,North,Online,P178,Home,Kitchen,Kitchen 13,65.17,3,0.15,166.18,139.13,27.05,Wallet,C1048,Consumer,NEW20,false,,0
+264,2025-09-16,Store-1,North,Online,P172,Home,Decor,Decor 9,148.63,1,0.15,126.34,103.65,22.69,Wallet,C1170,Corporate,WINTER10,false,,42
+265,2025-07-22,Store-1,South,Retail,P134,Home,Decor,Decor 10,75.56,4,0.15,256.9,216.46,40.44,Card,C1167,Corporate,NEW20,false,,44
+266,2025-06-01,Store-1,South,Online,P148,Sports,Fitness,Fitness 15,65.67,5,0,328.35,268.81,59.54,Wallet,C1117,Consumer,VIP5,true,2025-06-04,0
+267,2025-09-26,Store-2,North,Online,P173,Sports,Fitness,Fitness 17,14.1,4,0,56.4,46.49,9.91,Wallet,C1071,Small Business,WINTER10,false,,49
+268,2025-08-07,Store-1,Central,Retail,P186,Electronics,Phones,Phones 13,101.13,3,0.05,288.22,200.96,87.26,Wallet,C1126,Consumer,,false,,8
+269,2025-06-24,Store-3,North,Online,P194,Home,Kitchen,Kitchen 17,38.28,3,0,114.84,89.14,25.7,Cash,C1198,Corporate,WINTER10,false,,19
+270,2025-09-21,Store-2,North,Retail,P151,Home,Decor,Decor 4,137.9,3,0.1,372.33,259.1,113.23,Cash,C1068,Consumer,WINTER10,true,2025-09-30,26
+271,2025-08-19,Store-1,Central,Online,P135,Electronics,Audio,Audio 18,96.69,5,0.1,435.11,359.31,75.8,Cash,C1100,Corporate,NEW20,false,,40
+272,2025-06-14,Store-2,Central,Online,P168,Electronics,Phones,Phones 19,64.59,5,0.05,306.8,208.52,98.28,Card,C1017,Small Business,,true,2025-06-16,19
+273,2025-06-20,Store-3,North,Online,P150,Home,Decor,Decor 11,83.0,4,0.05,315.4,222.33,93.07,Card,C1182,Consumer,,true,2025-06-25,8
+274,2025-06-26,Store-2,South,Online,P108,Home,Decor,Decor 17,5.61,5,0,28.05,21.69,6.36,Cash,C1054,Small Business,VIP5,false,,9
+275,2025-06-27,Store-3,North,Online,P104,Home,Kitchen,Kitchen 13,176.34,2,0.1,317.41,248.76,68.65,Cash,C1182,Consumer,,false,,38
+276,2025-06-26,Store-1,Central,Online,P186,Home,Kitchen,Kitchen 19,195.09,1,0.05,185.34,112.5,72.84,Wallet,C1018,Consumer,VIP5,false,,0
+277,2025-07-27,Store-3,North,Retail,P164,Home,Kitchen,Kitchen 2,195.57,5,0.15,831.17,647.23,183.94,Card,C1010,Small Business,NEW20,false,,30
+278,2025-06-27,Store-2,South,Retail,P167,Home,Kitchen,Kitchen 19,49.91,5,0,249.55,170.82,78.73,Wallet,C1137,Small Business,,false,,49
+279,2025-06-21,Store-1,South,Retail,P147,Home,Decor,Decor 3,191.13,3,0,573.39,444.65,128.74,Cash,C1099,Small Business,,true,2025-06-25,42
+280,2025-09-18,Store-1,Central,Retail,P109,Home,Kitchen,Kitchen 16,117.24,4,0.1,422.06,375.95,46.11,Wallet,C1158,Corporate,WINTER10,false,,39
+281,2025-06-23,Store-1,Central,Online,P197,Home,Kitchen,Kitchen 7,19.91,5,0,99.55,72.83,26.72,Card,C1180,Small Business,WINTER10,false,,12
+282,2025-08-09,Store-3,Central,Online,P192,Sports,Fitness,Fitness 1,17.23,2,0.1,31.01,18.73,12.28,Wallet,C1184,Small Business,,false,,35
+283,2025-07-14,Store-3,North,Retail,P139,Home,Kitchen,Kitchen 4,13.63,2,0.05,25.9,18.81,7.09,Card,C1182,Corporate,,false,,6
+284,2025-09-16,Store-1,Central,Retail,P110,Home,Decor,Decor 11,159.98,4,0,639.92,547.13,92.79,Wallet,C1144,Corporate,,true,2025-09-20,22
+285,2025-07-01,Store-3,North,Online,P166,Home,Kitchen,Kitchen 14,156.01,4,0,624.04,526.42,97.62,Cash,C1034,Consumer,,false,,13
+286,2025-08-31,Store-3,South,Retail,P101,Electronics,Phones,Phones 3,95.42,1,0,95.42,82.7,12.72,Wallet,C1018,Corporate,VIP5,true,2025-09-08,49
+287,2025-08-19,Store-1,North,Online,P145,Electronics,Audio,Audio 13,176.72,1,0.15,150.21,129.67,20.54,Card,C1112,Corporate,,true,2025-08-21,36
+288,2025-08-30,Store-3,North,Retail,P151,Electronics,Audio,Audio 8,144.78,4,0.1,521.21,407.47,113.74,Card,C1127,Small Business,NEW20,false,,44
+289,2025-06-29,Store-1,North,Retail,P195,Sports,Fitness,Fitness 8,128.61,1,0,128.61,80.78,47.83,Card,C1000,Consumer,NEW20,false,,25
+290,2025-06-29,Store-1,South,Online,P181,Sports,Fitness,Fitness 19,184.26,3,0,552.78,357.11,195.67,Card,C1122,Consumer,,false,,9
+291,2025-09-10,Store-3,North,Retail,P165,Electronics,Phones,Phones 13,183.69,1,0,183.69,157.13,26.56,Wallet,C1165,Consumer,,false,,45
+292,2025-06-05,Store-3,South,Retail,P150,Home,Decor,Decor 1,114.18,2,0,228.36,149.85,78.51,Wallet,C1117,Consumer,,false,,42
+293,2025-07-23,Store-1,South,Online,P166,Sports,Fitness,Fitness 12,137.14,1,0,137.14,117.24,19.9,Card,C1022,Corporate,VIP5,false,,19
+294,2025-09-04,Store-2,North,Retail,P173,Sports,Fitness,Fitness 11,154.91,1,0,154.91,96.43,58.48,Card,C1174,Small Business,,false,,33
+295,2025-07-18,Store-2,Central,Online,P102,Electronics,Phones,Phones 2,144.75,1,0,144.75,123.76,20.99,Cash,C1014,Consumer,,false,,28
+296,2025-07-01,Store-3,North,Retail,P144,Home,Kitchen,Kitchen 1,68.26,1,0,68.26,50.03,18.23,Wallet,C1167,Corporate,,false,,17
+297,2025-09-09,Store-1,North,Retail,P102,Sports,Fitness,Fitness 11,50.0,3,0.05,142.5,85.57,56.93,Card,C1087,Consumer,,false,,6
+298,2025-06-03,Store-2,Central,Retail,P108,Home,Kitchen,Kitchen 18,28.76,4,0,115.04,76.32,38.72,Card,C1166,Small Business,,false,,26
+299,2025-09-26,Store-3,South,Online,P127,Electronics,Audio,Audio 10,152.24,1,0.05,144.63,105.5,39.13,Card,C1045,Small Business,NEW20,false,,44
+300,2025-09-02,Store-2,Central,Online,P132,Home,Kitchen,Kitchen 1,22.89,2,0.05,43.49,34.16,9.33,Wallet,C1164,Small Business,,false,,41
+301,2025-06-07,Store-3,North,Retail,P109,Home,Kitchen,Kitchen 3,147.27,5,0,736.35,458.04,278.31,Card,C1036,Small Business,,true,2025-06-16,44
+302,2025-09-19,Store-2,Central,Online,P132,Electronics,Phones,Phones 10,81.98,2,0.1,147.56,132.33,15.23,Card,C1117,Corporate,VIP5,false,,1
+303,2025-07-18,Store-1,North,Online,P185,Home,Kitchen,Kitchen 11,59.14,1,0,59.14,36.77,22.37,Card,C1040,Small Business,,false,,42
+304,2025-07-02,Store-1,North,Online,P112,Home,Decor,Decor 2,79.69,1,0.15,67.74,52.51,15.23,Card,C1016,Corporate,,false,,8
+305,2025-09-26,Store-2,Central,Online,P147,Electronics,Audio,Audio 9,77.24,2,0.15,131.31,104.91,26.4,Card,C1042,Corporate,NEW20,false,,14
+306,2025-08-21,Store-1,North,Retail,P130,Home,Kitchen,Kitchen 16,56.27,1,0,56.27,35.44,20.83,Cash,C1094,Consumer,VIP5,false,,30
+307,2025-07-25,Store-2,North,Online,P171,Home,Decor,Decor 16,23.28,1,0.1,20.95,15.58,5.37,Card,C1059,Corporate,NEW20,false,,7
+308,2025-06-23,Store-1,Central,Retail,P160,Home,Decor,Decor 8,187.63,5,0,938.15,583.02,355.13,Card,C1123,Small Business,WINTER10,true,2025-06-25,3
+309,2025-07-24,Store-3,North,Online,P121,Sports,Fitness,Fitness 17,173.61,2,0,347.22,216.99,130.23,Cash,C1119,Corporate,WINTER10,false,,28
+310,2025-08-18,Store-2,North,Online,P184,Home,Kitchen,Kitchen 12,18.29,4,0.1,65.84,44.59,21.25,Wallet,C1002,Small Business,,false,,41
+311,2025-07-29,Store-3,South,Online,P182,Sports,Fitness,Fitness 8,155.65,5,0,778.25,618.97,159.28,Card,C1099,Corporate,,false,,42
+312,2025-09-22,Store-3,North,Online,P176,Electronics,Phones,Phones 15,180.81,1,0.1,162.73,108.23,54.5,Card,C1073,Corporate,WINTER10,false,,19
+313,2025-09-02,Store-2,South,Online,P151,Electronics,Phones,Phones 1,137.43,1,0.05,130.56,115.48,15.08,Card,C1016,Corporate,VIP5,true,2025-09-06,39
+314,2025-09-22,Store-1,North,Retail,P139,Electronics,Audio,Audio 15,57.84,3,0,173.52,125.3,48.22,Cash,C1105,Small Business,,false,,49
+315,2025-06-19,Store-1,North,Online,P133,Sports,Fitness,Fitness 20,93.56,5,0.15,397.63,323.48,74.15,Card,C1066,Consumer,,false,,17
+316,2025-07-22,Store-1,North,Online,P141,Sports,Fitness,Fitness 2,37.71,4,0,150.84,94.13,56.71,Cash,C1104,Corporate,,false,,9
+317,2025-09-02,Store-2,South,Retail,P106,Electronics,Phones,Phones 14,183.38,1,0,183.38,159.76,23.62,Card,C1073,Consumer,WINTER10,true,2025-09-04,33
+318,2025-07-17,Store-2,South,Online,P131,Home,Decor,Decor 16,133.33,5,0.05,633.32,550.75,82.57,Wallet,C1049,Corporate,,false,,36
+319,2025-07-17,Store-1,South,Retail,P152,Electronics,Audio,Audio 12,191.48,3,0,574.44,465.48,108.96,Card,C1159,Small Business,NEW20,false,,43
+320,2025-07-10,Store-1,Central,Retail,P186,Home,Kitchen,Kitchen 6,95.77,3,0,287.31,256.7,30.61,Card,C1053,Small Business,NEW20,true,2025-07-13,47
+321,2025-06-28,Store-2,South,Retail,P184,Home,Decor,Decor 16,154.54,2,0,309.08,244.77,64.31,Cash,C1028,Consumer,,false,,25
+322,2025-08-16,Store-2,South,Online,P174,Home,Decor,Decor 15,188.76,5,0.15,802.23,566.94,235.29,Wallet,C1194,Corporate,VIP5,false,,30
+323,2025-08-26,Store-1,South,Online,P147,Home,Decor,Decor 4,192.68,3,0.15,491.33,389.44,101.89,Wallet,C1063,Small Business,,false,,23
+324,2025-09-05,Store-2,South,Retail,P108,Electronics,Audio,Audio 20,93.71,5,0,468.55,309.01,159.54,Card,C1152,Small Business,NEW20,false,,1
+325,2025-06-07,Store-1,North,Online,P100,Electronics,Audio,Audio 6,49.84,3,0,149.52,90.58,58.94,Card,C1021,Consumer,WINTER10,false,,30
+326,2025-07-11,Store-1,South,Retail,P137,Home,Kitchen,Kitchen 14,150.77,3,0.05,429.69,264.9,164.79,Card,C1067,Consumer,VIP5,false,,4
+327,2025-08-17,Store-1,South,Retail,P193,Electronics,Audio,Audio 11,71.63,4,0,286.52,188.11,98.41,Wallet,C1013,Consumer,NEW20,true,2025-08-22,45
+328,2025-06-01,Store-1,Central,Online,P112,Home,Decor,Decor 3,119.31,2,0.1,214.76,180.66,34.1,Card,C1159,Consumer,NEW20,true,2025-06-04,0
+329,2025-06-23,Store-3,North,Online,P130,Home,Decor,Decor 9,102.75,5,0.15,436.69,305.49,131.2,Card,C1007,Consumer,,false,,32
+330,2025-07-06,Store-1,South,Retail,P124,Sports,Fitness,Fitness 6,44.9,3,0.05,127.96,81.81,46.15,Card,C1057,Corporate,VIP5,false,,25
+331,2025-07-09,Store-3,South,Retail,P199,Electronics,Phones,Phones 20,66.52,3,0,199.56,139.19,60.37,Card,C1038,Consumer,WINTER10,true,2025-07-10,12
+332,2025-07-10,Store-1,South,Retail,P167,Home,Decor,Decor 10,156.21,1,0,156.21,122.96,33.25,Cash,C1123,Consumer,VIP5,false,,28
+333,2025-07-09,Store-2,South,Retail,P168,Home,Kitchen,Kitchen 15,157.05,3,0.15,400.48,246.42,154.06,Cash,C1022,Small Business,VIP5,false,,2
+334,2025-09-16,Store-3,North,Online,P187,Home,Decor,Decor 20,11.85,1,0.05,11.26,8.23,3.03,Card,C1037,Corporate,,false,,2
+335,2025-07-05,Store-3,North,Online,P140,Electronics,Phones,Phones 6,164.61,5,0.1,740.75,482.03,258.72,Card,C1099,Corporate,VIP5,false,,7
+336,2025-09-21,Store-1,Central,Online,P133,Electronics,Phones,Phones 13,97.19,2,0.15,165.22,139.32,25.9,Cash,C1100,Small Business,WINTER10,false,,47
+337,2025-06-23,Store-2,North,Retail,P103,Electronics,Audio,Audio 9,105.0,2,0.15,178.5,124.3,54.2,Card,C1186,Small Business,VIP5,false,,42
+338,2025-07-22,Store-1,North,Online,P144,Sports,Fitness,Fitness 1,158.55,3,0.15,404.3,247.35,156.95,Card,C1083,Consumer,VIP5,false,,23
+339,2025-07-07,Store-2,South,Retail,P148,Home,Decor,Decor 10,26.5,2,0,53.0,46.26,6.74,Cash,C1193,Small Business,,false,,41
+340,2025-09-09,Store-1,South,Online,P139,Electronics,Audio,Audio 9,103.39,3,0.1,279.15,204.09,75.06,Cash,C1034,Consumer,,false,,42
+341,2025-09-12,Store-1,Central,Online,P199,Home,Kitchen,Kitchen 5,172.15,5,0,860.75,721.38,139.37,Wallet,C1116,Corporate,NEW20,true,2025-09-16,46
+342,2025-07-12,Store-2,North,Online,P115,Electronics,Phones,Phones 11,177.89,1,0,177.89,126.48,51.41,Wallet,C1017,Corporate,,false,,29
+343,2025-08-19,Store-2,Central,Retail,P139,Home,Decor,Decor 19,96.74,3,0.05,275.71,226.56,49.15,Cash,C1146,Consumer,,false,,30
+344,2025-07-26,Store-2,North,Online,P126,Electronics,Audio,Audio 12,110.84,1,0.15,94.21,57.51,36.7,Wallet,C1145,Corporate,,false,,27
+345,2025-06-10,Store-1,South,Retail,P195,Sports,Fitness,Fitness 12,24.8,5,0,124.0,82.55,41.45,Wallet,C1110,Consumer,NEW20,false,,26
+346,2025-06-24,Store-2,Central,Retail,P193,Sports,Fitness,Fitness 6,100.8,5,0,504.0,403.47,100.53,Card,C1154,Corporate,,false,,11
+347,2025-06-01,Store-3,South,Online,P146,Sports,Fitness,Fitness 2,185.18,2,0.15,314.81,191.1,123.71,Wallet,C1182,Small Business,WINTER10,true,2025-06-04,35
+348,2025-06-26,Store-1,North,Retail,P154,Electronics,Phones,Phones 5,122.41,3,0.15,312.15,213.14,99.01,Cash,C1055,Small Business,NEW20,false,,5
+349,2025-09-06,Store-1,Central,Online,P168,Electronics,Audio,Audio 9,50.26,2,0,100.52,78.49,22.03,Card,C1149,Small Business,,true,2025-09-16,45
+350,2025-06-26,Store-2,Central,Online,P100,Home,Decor,Decor 15,174.5,1,0.15,148.32,119.14,29.18,Card,C1081,Corporate,WINTER10,false,,34
+351,2025-07-12,Store-2,South,Online,P129,Electronics,Audio,Audio 6,174.51,3,0.15,445.0,325.2,119.8,Cash,C1041,Small Business,WINTER10,true,2025-07-14,9
+352,2025-06-23,Store-3,Central,Online,P137,Sports,Fitness,Fitness 6,86.44,4,0.15,293.9,219.21,74.69,Cash,C1120,Small Business,WINTER10,true,2025-07-03,32
+353,2025-06-17,Store-3,North,Online,P145,Electronics,Phones,Phones 13,193.56,4,0,774.24,546.79,227.45,Cash,C1085,Corporate,NEW20,false,,29
+354,2025-09-17,Store-3,South,Online,P193,Electronics,Phones,Phones 16,74.12,4,0.1,266.83,209.71,57.12,Card,C1141,Small Business,,false,,40
+355,2025-07-15,Store-3,Central,Retail,P173,Sports,Fitness,Fitness 8,71.31,2,0.15,121.23,92.81,28.42,Wallet,C1046,Corporate,,false,,1
+356,2025-08-16,Store-2,Central,Retail,P135,Home,Decor,Decor 12,106.69,1,0.05,101.36,77.51,23.85,Cash,C1163,Corporate,,false,,16
+357,2025-07-18,Store-3,South,Retail,P147,Electronics,Phones,Phones 13,18.1,5,0,90.5,61.79,28.71,Cash,C1073,Corporate,WINTER10,true,2025-07-19,4
+358,2025-06-23,Store-1,North,Online,P139,Electronics,Audio,Audio 8,47.76,4,0.05,181.49,115.54,65.95,Wallet,C1027,Consumer,,false,,49
+359,2025-09-25,Store-1,Central,Online,P195,Electronics,Phones,Phones 16,172.43,4,0.1,620.75,389.8,230.95,Wallet,C1192,Consumer,,false,,19
+360,2025-06-03,Store-1,North,Online,P104,Electronics,Phones,Phones 1,68.92,2,0,137.84,101.87,35.97,Card,C1046,Consumer,,false,,43
+361,2025-06-24,Store-2,North,Retail,P150,Home,Kitchen,Kitchen 14,54.4,2,0.1,97.92,87.38,10.54,Wallet,C1180,Consumer,WINTER10,false,,9
+362,2025-09-08,Store-2,South,Online,P167,Home,Decor,Decor 20,137.74,1,0.1,123.97,94.74,29.23,Wallet,C1003,Corporate,NEW20,false,,38
+363,2025-08-19,Store-2,South,Retail,P118,Sports,Fitness,Fitness 2,183.39,5,0.15,779.41,500.96,278.45,Card,C1176,Corporate,WINTER10,false,,32
+364,2025-09-09,Store-3,South,Online,P153,Home,Kitchen,Kitchen 7,116.13,4,0.05,441.29,391.86,49.43,Wallet,C1157,Consumer,VIP5,true,2025-09-13,17
+365,2025-09-22,Store-1,South,Online,P188,Sports,Fitness,Fitness 11,67.06,5,0.05,318.53,267.67,50.86,Cash,C1040,Small Business,,true,2025-09-27,5
+366,2025-07-31,Store-1,North,Retail,P173,Electronics,Phones,Phones 14,181.91,5,0.15,773.12,562.97,210.15,Card,C1022,Small Business,WINTER10,false,,24
+367,2025-07-04,Store-1,South,Retail,P192,Home,Decor,Decor 9,20.86,4,0.05,79.27,49.88,29.39,Cash,C1184,Corporate,WINTER10,false,,41
+368,2025-07-02,Store-2,Central,Online,P164,Sports,Fitness,Fitness 17,88.22,5,0.05,419.05,308.78,110.27,Cash,C1102,Small Business,NEW20,false,,2
+369,2025-09-02,Store-1,South,Retail,P177,Electronics,Phones,Phones 18,148.7,2,0.05,282.53,223.5,59.03,Cash,C1063,Corporate,,false,,28
+370,2025-07-30,Store-1,North,Online,P127,Electronics,Phones,Phones 15,122.14,1,0.05,116.03,81.57,34.46,Wallet,C1047,Consumer,,false,,32
+371,2025-07-02,Store-2,North,Online,P160,Electronics,Audio,Audio 8,53.79,1,0,53.79,34.87,18.92,Wallet,C1077,Consumer,NEW20,true,2025-07-06,6
+372,2025-07-22,Store-2,Central,Online,P129,Home,Decor,Decor 15,98.77,5,0,493.85,433.09,60.76,Card,C1133,Small Business,,false,,25
+373,2025-09-20,Store-1,North,Retail,P163,Home,Decor,Decor 9,114.83,1,0.15,97.61,73.13,24.48,Wallet,C1084,Consumer,VIP5,false,,23
+374,2025-07-17,Store-1,North,Retail,P136,Sports,Fitness,Fitness 11,80.08,5,0,400.4,277.94,122.46,Card,C1081,Consumer,NEW20,false,,18
+375,2025-07-27,Store-3,Central,Retail,P181,Home,Decor,Decor 7,110.93,2,0.05,210.77,138.37,72.4,Card,C1076,Corporate,WINTER10,false,,26
+376,2025-05-31,Store-1,South,Online,P165,Electronics,Audio,Audio 17,134.2,2,0,268.4,216.13,52.27,Card,C1049,Small Business,,false,,17
+377,2025-06-05,Store-2,North,Retail,P172,Home,Kitchen,Kitchen 1,105.46,3,0.15,268.92,204.33,64.59,Card,C1003,Small Business,WINTER10,false,,14
+378,2025-06-12,Store-1,North,Retail,P194,Sports,Fitness,Fitness 17,191.5,4,0.1,689.4,618.94,70.46,Card,C1017,Small Business,NEW20,false,,47
+379,2025-09-21,Store-2,South,Online,P146,Home,Decor,Decor 1,190.94,1,0.1,171.85,135.24,36.61,Wallet,C1098,Consumer,VIP5,false,,35
+380,2025-06-16,Store-2,Central,Retail,P118,Sports,Fitness,Fitness 6,35.84,2,0,71.68,55.66,16.02,Card,C1040,Corporate,,false,,35
+381,2025-08-01,Store-2,Central,Online,P130,Electronics,Phones,Phones 14,32.39,1,0,32.39,28.13,4.26,Cash,C1061,Consumer,NEW20,true,2025-08-08,21
+382,2025-07-29,Store-1,North,Online,P164,Home,Decor,Decor 8,185.11,5,0,925.55,610.37,315.18,Cash,C1021,Corporate,,false,,41
+383,2025-06-09,Store-2,Central,Online,P199,Sports,Fitness,Fitness 15,52.65,2,0,105.3,72.83,32.47,Cash,C1027,Small Business,,true,2025-06-12,37
+384,2025-06-04,Store-2,North,Online,P136,Electronics,Phones,Phones 17,12.73,1,0,12.73,9.63,3.1,Wallet,C1183,Consumer,,true,2025-06-07,14
+385,2025-08-23,Store-1,Central,Retail,P111,Home,Decor,Decor 8,181.01,1,0,181.01,144.55,36.46,Card,C1050,Corporate,,false,,23
+386,2025-07-11,Store-1,Central,Retail,P104,Electronics,Audio,Audio 13,86.23,4,0,344.92,223.07,121.85,Card,C1014,Small Business,WINTER10,false,,40
+387,2025-06-11,Store-2,South,Retail,P124,Home,Kitchen,Kitchen 4,135.62,4,0.15,461.11,388.55,72.56,Cash,C1016,Small Business,NEW20,false,,9
+388,2025-06-07,Store-2,Central,Online,P189,Electronics,Phones,Phones 6,117.74,1,0,117.74,74.63,43.11,Cash,C1061,Consumer,WINTER10,false,,22
+389,2025-06-20,Store-3,Central,Retail,P120,Home,Kitchen,Kitchen 15,90.4,1,0,90.4,56.72,33.68,Wallet,C1110,Consumer,WINTER10,false,,45
+390,2025-06-13,Store-1,Central,Online,P100,Electronics,Audio,Audio 5,13.25,3,0,39.75,34.28,5.47,Wallet,C1081,Small Business,,true,2025-06-23,34
+391,2025-06-24,Store-2,South,Online,P193,Home,Decor,Decor 11,29.64,3,0.15,75.58,58.02,17.56,Card,C1158,Corporate,,false,,32
+392,2025-06-01,Store-2,Central,Online,P168,Electronics,Phones,Phones 10,58.78,4,0.05,223.36,168.69,54.67,Card,C1180,Small Business,,true,2025-06-10,18
+393,2025-07-06,Store-2,South,Online,P161,Home,Kitchen,Kitchen 11,147.57,2,0.1,265.63,228.08,37.55,Wallet,C1078,Corporate,VIP5,false,,48
+394,2025-07-15,Store-3,South,Online,P155,Electronics,Audio,Audio 9,128.87,1,0.05,122.43,93.6,28.83,Cash,C1092,Corporate,,true,2025-07-25,33
+395,2025-09-20,Store-3,Central,Online,P143,Home,Kitchen,Kitchen 16,26.17,2,0.1,47.11,29.71,17.4,Card,C1069,Corporate,,false,,21
+396,2025-09-15,Store-2,Central,Retail,P119,Home,Decor,Decor 11,35.01,2,0,70.02,49.41,20.61,Card,C1172,Consumer,VIP5,false,,11
+397,2025-09-21,Store-1,Central,Retail,P119,Electronics,Audio,Audio 12,104.3,1,0.05,99.08,72.51,26.57,Cash,C1152,Corporate,,true,2025-09-28,11
+398,2025-07-17,Store-1,South,Retail,P197,Electronics,Phones,Phones 11,69.93,1,0.15,59.44,48.44,11.0,Card,C1005,Small Business,,false,,18
+399,2025-06-11,Store-1,South,Online,P160,Electronics,Audio,Audio 19,155.59,3,0,466.77,285.16,181.61,Cash,C1132,Small Business,,false,,32
+400,2025-07-27,Store-1,North,Online,P139,Home,Decor,Decor 14,183.45,1,0,183.45,116.45,67.0,Cash,C1061,Small Business,NEW20,false,,21
+401,2025-08-13,Store-1,Central,Online,P170,Sports,Fitness,Fitness 10,57.49,4,0.1,206.96,185.46,21.5,Card,C1169,Corporate,NEW20,false,,38
+402,2025-08-17,Store-1,South,Retail,P149,Sports,Fitness,Fitness 6,160.93,1,0.05,152.88,126.53,26.35,Wallet,C1112,Consumer,VIP5,true,2025-08-21,44
+403,2025-05-30,Store-1,North,Online,P147,Electronics,Audio,Audio 1,89.35,5,0.1,402.07,276.14,125.93,Wallet,C1089,Small Business,VIP5,false,,6
+404,2025-08-03,Store-3,Central,Online,P137,Home,Kitchen,Kitchen 18,45.86,4,0.05,174.27,148.89,25.38,Wallet,C1157,Small Business,,false,,18
+405,2025-09-04,Store-1,South,Retail,P146,Electronics,Phones,Phones 18,130.13,2,0.05,247.25,198.34,48.91,Card,C1086,Consumer,NEW20,false,,23
+406,2025-06-27,Store-2,North,Online,P185,Electronics,Audio,Audio 18,92.03,4,0.05,349.71,234.24,115.47,Wallet,C1117,Consumer,VIP5,false,,1
+407,2025-07-17,Store-1,Central,Retail,P163,Electronics,Phones,Phones 18,97.11,2,0.15,165.09,107.62,57.47,Wallet,C1044,Small Business,WINTER10,false,,41
+408,2025-08-02,Store-1,South,Online,P140,Sports,Fitness,Fitness 10,112.38,2,0.1,202.28,165.83,36.45,Card,C1034,Corporate,VIP5,false,,43
+409,2025-06-24,Store-3,South,Online,P195,Home,Decor,Decor 11,115.5,3,0.1,311.85,229.07,82.78,Card,C1015,Small Business,,false,,39
+410,2025-08-17,Store-1,South,Online,P108,Home,Kitchen,Kitchen 6,181.61,5,0,908.05,549.12,358.93,Card,C1112,Consumer,NEW20,false,,11
+411,2025-06-24,Store-2,South,Retail,P103,Sports,Fitness,Fitness 5,70.63,1,0,70.63,42.85,27.78,Wallet,C1030,Consumer,WINTER10,false,,42
+412,2025-07-04,Store-2,South,Online,P156,Electronics,Audio,Audio 20,160.18,3,0.15,408.46,358.61,49.85,Card,C1187,Corporate,WINTER10,false,,5
+413,2025-09-25,Store-3,South,Retail,P176,Sports,Fitness,Fitness 5,79.46,5,0.1,357.57,254.95,102.62,Cash,C1050,Consumer,VIP5,false,,47
+414,2025-09-13,Store-3,North,Online,P150,Home,Kitchen,Kitchen 2,48.69,2,0.1,87.64,77.67,9.97,Cash,C1118,Small Business,VIP5,true,2025-09-14,39
+415,2025-09-03,Store-3,South,Retail,P126,Home,Decor,Decor 6,72.75,4,0,291.0,220.4,70.6,Card,C1108,Consumer,NEW20,false,,50
+416,2025-06-24,Store-3,South,Online,P173,Home,Kitchen,Kitchen 4,56.42,3,0,169.26,126.05,43.21,Cash,C1151,Small Business,WINTER10,false,,27
+417,2025-09-10,Store-1,Central,Retail,P170,Electronics,Audio,Audio 18,122.29,2,0,244.58,168.18,76.4,Card,C1173,Corporate,NEW20,true,2025-09-17,12
+418,2025-09-15,Store-1,North,Retail,P165,Electronics,Audio,Audio 5,66.96,4,0.1,241.06,164.71,76.35,Card,C1046,Small Business,,false,,10
+419,2025-07-29,Store-3,South,Online,P182,Home,Decor,Decor 17,99.8,1,0,99.8,89.23,10.57,Card,C1113,Consumer,,false,,34
+420,2025-07-24,Store-1,Central,Online,P122,Sports,Fitness,Fitness 12,77.47,4,0,309.88,277.12,32.76,Card,C1176,Corporate,WINTER10,false,,35
+421,2025-09-10,Store-3,North,Online,P106,Sports,Fitness,Fitness 7,53.44,1,0.05,50.77,34.31,16.46,Card,C1067,Corporate,WINTER10,false,,0
+422,2025-07-07,Store-2,North,Retail,P192,Electronics,Audio,Audio 14,27.25,2,0,54.5,34.57,19.93,Wallet,C1027,Corporate,NEW20,false,,14
+423,2025-06-25,Store-2,North,Retail,P152,Home,Decor,Decor 18,81.53,3,0.1,220.13,136.88,83.25,Wallet,C1191,Corporate,NEW20,true,2025-06-30,11
+424,2025-09-12,Store-2,Central,Online,P171,Electronics,Phones,Phones 7,94.96,5,0,474.8,426.64,48.16,Wallet,C1030,Consumer,VIP5,true,2025-09-13,0
+425,2025-07-02,Store-3,Central,Online,P160,Electronics,Audio,Audio 5,175.58,4,0,702.32,451.46,250.86,Cash,C1168,Consumer,VIP5,false,,24
+426,2025-07-25,Store-3,Central,Online,P108,Home,Kitchen,Kitchen 5,14.46,1,0.05,13.74,8.42,5.32,Cash,C1078,Small Business,WINTER10,false,,5
+427,2025-08-31,Store-3,North,Retail,P199,Electronics,Phones,Phones 12,142.44,5,0.1,640.98,507.02,133.96,Wallet,C1106,Consumer,,true,2025-09-05,31
+428,2025-07-25,Store-2,North,Retail,P148,Electronics,Audio,Audio 7,67.75,4,0.1,243.9,184.32,59.58,Wallet,C1071,Consumer,,false,,41
+429,2025-07-26,Store-2,North,Online,P149,Home,Decor,Decor 20,58.85,2,0.15,100.05,75.62,24.43,Cash,C1038,Corporate,WINTER10,false,,35
+430,2025-06-01,Store-2,North,Online,P156,Sports,Fitness,Fitness 10,182.63,4,0,730.52,460.74,269.78,Card,C1103,Corporate,,false,,24
+431,2025-07-15,Store-1,Central,Online,P103,Electronics,Phones,Phones 5,103.23,1,0,103.23,79.06,24.17,Wallet,C1132,Consumer,WINTER10,false,,26
+432,2025-07-25,Store-2,South,Online,P106,Home,Kitchen,Kitchen 19,149.73,1,0.15,127.27,112.43,14.84,Cash,C1078,Small Business,,false,,6
+433,2025-07-23,Store-1,South,Online,P192,Sports,Fitness,Fitness 9,137.14,3,0,411.42,317.75,93.67,Card,C1072,Corporate,,false,,19
+434,2025-08-08,Store-2,South,Online,P166,Electronics,Phones,Phones 16,71.38,3,0,214.14,148.82,65.32,Wallet,C1074,Small Business,VIP5,false,,15
+435,2025-07-21,Store-3,Central,Online,P159,Home,Decor,Decor 9,189.5,5,0,947.5,606.85,340.65,Wallet,C1165,Consumer,,false,,5
+436,2025-07-01,Store-3,North,Retail,P188,Home,Kitchen,Kitchen 20,186.26,4,0.1,670.54,437.33,233.21,Wallet,C1024,Corporate,,false,,30
+437,2025-08-20,Store-3,South,Retail,P124,Electronics,Phones,Phones 13,81.25,4,0,325.0,231.52,93.48,Wallet,C1143,Small Business,VIP5,true,2025-08-30,25
+438,2025-08-03,Store-2,North,Retail,P165,Electronics,Audio,Audio 11,198.55,4,0,794.2,676.44,117.76,Card,C1174,Small Business,,false,,23
+439,2025-09-19,Store-2,Central,Retail,P139,Home,Kitchen,Kitchen 20,76.85,2,0.15,130.64,104.62,26.02,Card,C1022,Consumer,,false,,30
+440,2025-07-12,Store-1,South,Online,P191,Electronics,Audio,Audio 18,48.61,3,0.05,138.54,95.7,42.84,Cash,C1052,Corporate,,true,2025-07-16,24
+441,2025-07-28,Store-1,Central,Retail,P112,Electronics,Phones,Phones 8,83.62,2,0,167.24,130.12,37.12,Cash,C1181,Corporate,,false,,15
+442,2025-07-26,Store-2,North,Online,P173,Home,Kitchen,Kitchen 2,177.9,1,0.15,151.22,91.69,59.53,Wallet,C1150,Small Business,NEW20,false,,25
+443,2025-06-18,Store-3,Central,Retail,P151,Home,Kitchen,Kitchen 6,42.3,5,0.05,200.92,156.67,44.25,Card,C1074,Small Business,VIP5,false,,32
+444,2025-07-16,Store-3,North,Online,P132,Home,Kitchen,Kitchen 9,134.19,4,0.15,456.25,334.72,121.53,Cash,C1119,Small Business,VIP5,false,,44
+445,2025-08-17,Store-1,North,Online,P126,Electronics,Audio,Audio 5,45.77,3,0,137.31,121.5,15.81,Wallet,C1114,Corporate,,false,,3
+446,2025-06-21,Store-2,North,Online,P103,Home,Decor,Decor 1,177.32,4,0.15,602.89,534.34,68.55,Cash,C1059,Consumer,,true,2025-06-25,21
+447,2025-07-08,Store-3,Central,Retail,P107,Home,Decor,Decor 17,6.82,1,0.15,5.8,4.85,0.95,Cash,C1051,Consumer,VIP5,false,,1
+448,2025-06-11,Store-1,Central,Retail,P147,Home,Decor,Decor 4,119.24,5,0.05,566.39,341.96,224.43,Cash,C1160,Corporate,NEW20,false,,31
+449,2025-08-07,Store-3,Central,Online,P112,Home,Decor,Decor 13,133.43,4,0.1,480.35,403.55,76.8,Wallet,C1006,Consumer,,true,2025-08-12,2
+450,2025-08-15,Store-2,South,Retail,P160,Electronics,Phones,Phones 8,73.52,4,0.1,264.67,167.02,97.65,Wallet,C1194,Small Business,,false,,21
+451,2025-07-08,Store-3,North,Retail,P184,Sports,Fitness,Fitness 1,88.94,5,0.15,378.0,336.65,41.35,Wallet,C1187,Corporate,VIP5,false,,45
+452,2025-07-06,Store-3,North,Online,P190,Home,Kitchen,Kitchen 2,154.21,2,0,308.42,269.28,39.14,Card,C1067,Consumer,NEW20,false,,47
+453,2025-08-28,Store-3,South,Retail,P175,Sports,Fitness,Fitness 5,191.12,1,0,191.12,139.86,51.26,Cash,C1088,Consumer,NEW20,false,,35
+454,2025-09-06,Store-2,Central,Online,P134,Sports,Fitness,Fitness 16,15.22,1,0,15.22,12.96,2.26,Card,C1101,Small Business,,false,,21
+455,2025-06-08,Store-1,Central,Online,P169,Home,Kitchen,Kitchen 2,118.18,1,0.1,106.36,80.0,26.36,Card,C1124,Consumer,WINTER10,false,,19
+456,2025-06-28,Store-1,North,Retail,P198,Electronics,Phones,Phones 6,155.76,5,0.05,739.86,660.96,78.9,Card,C1047,Corporate,NEW20,false,,43
+457,2025-08-10,Store-2,Central,Retail,P169,Sports,Fitness,Fitness 6,31.39,3,0,94.17,63.35,30.82,Wallet,C1005,Small Business,,false,,49
+458,2025-07-08,Store-1,Central,Retail,P194,Electronics,Phones,Phones 10,184.41,4,0.15,626.99,406.22,220.77,Card,C1023,Corporate,NEW20,false,,10
+459,2025-06-25,Store-1,North,Online,P110,Home,Decor,Decor 5,53.14,1,0.1,47.83,37.68,10.15,Card,C1007,Corporate,VIP5,false,,15
+460,2025-08-13,Store-2,South,Retail,P168,Home,Decor,Decor 12,141.38,2,0.1,254.48,157.8,96.68,Cash,C1072,Corporate,,false,,27
+461,2025-07-10,Store-2,Central,Online,P138,Home,Decor,Decor 13,126.39,1,0,126.39,92.88,33.51,Wallet,C1113,Corporate,VIP5,true,2025-07-15,25
+462,2025-06-12,Store-1,South,Online,P155,Sports,Fitness,Fitness 7,198.18,4,0.1,713.45,606.97,106.48,Cash,C1096,Small Business,,false,,25
+463,2025-08-22,Store-1,Central,Retail,P116,Sports,Fitness,Fitness 10,68.28,4,0.05,259.46,226.68,32.78,Wallet,C1122,Small Business,,false,,11
+464,2025-09-24,Store-2,South,Online,P190,Home,Decor,Decor 1,58.55,5,0.1,263.48,187.67,75.81,Card,C1109,Consumer,NEW20,true,2025-09-28,44
+465,2025-09-09,Store-3,South,Online,P181,Electronics,Phones,Phones 8,65.48,2,0.1,117.86,83.85,34.01,Wallet,C1175,Corporate,NEW20,false,,24
+466,2025-06-12,Store-1,North,Retail,P114,Sports,Fitness,Fitness 19,151.11,4,0.05,574.22,442.79,131.43,Wallet,C1043,Consumer,,true,2025-06-18,16
+467,2025-07-18,Store-2,Central,Retail,P163,Electronics,Phones,Phones 19,104.66,1,0,104.66,64.56,40.1,Cash,C1200,Consumer,WINTER10,false,,31
+468,2025-09-06,Store-2,Central,Retail,P109,Sports,Fitness,Fitness 2,147.73,2,0,295.46,238.36,57.1,Cash,C1039,Small Business,VIP5,false,,4
+469,2025-06-17,Store-3,Central,Retail,P115,Electronics,Audio,Audio 2,20.37,3,0,61.11,52.45,8.66,Cash,C1160,Small Business,VIP5,false,,28
+470,2025-06-28,Store-2,North,Retail,P120,Electronics,Audio,Audio 15,189.43,3,0,568.29,442.56,125.73,Wallet,C1100,Small Business,,false,,19
+471,2025-07-15,Store-3,Central,Online,P171,Electronics,Phones,Phones 11,79.85,5,0.05,379.29,229.04,150.25,Cash,C1176,Corporate,VIP5,false,,31
+472,2025-06-28,Store-3,South,Online,P126,Home,Kitchen,Kitchen 12,114.4,4,0.15,388.96,274.93,114.03,Wallet,C1096,Consumer,,false,,37
+473,2025-08-07,Store-3,Central,Retail,P126,Home,Decor,Decor 14,157.89,5,0.15,671.03,554.74,116.29,Cash,C1009,Corporate,WINTER10,false,,30
+474,2025-09-06,Store-1,South,Retail,P185,Home,Kitchen,Kitchen 5,129.11,4,0.15,438.97,351.47,87.5,Card,C1072,Small Business,NEW20,false,,46
+475,2025-09-23,Store-1,Central,Retail,P102,Home,Kitchen,Kitchen 4,62.87,2,0.15,106.88,68.83,38.05,Cash,C1187,Corporate,,false,,48
+476,2025-08-13,Store-1,North,Retail,P197,Home,Kitchen,Kitchen 17,85.63,4,0.05,325.39,269.9,55.49,Wallet,C1178,Small Business,VIP5,false,,42
+477,2025-08-31,Store-1,North,Retail,P141,Electronics,Audio,Audio 7,160.52,3,0.05,457.48,277.77,179.71,Wallet,C1079,Corporate,,false,,8
+478,2025-06-26,Store-2,North,Retail,P115,Home,Kitchen,Kitchen 17,40.04,3,0,120.12,92.91,27.21,Cash,C1127,Corporate,VIP5,false,,21
+479,2025-07-22,Store-3,Central,Online,P163,Home,Decor,Decor 11,182.88,2,0.05,347.47,271.9,75.57,Card,C1060,Consumer,WINTER10,false,,12
+480,2025-08-27,Store-3,North,Online,P187,Sports,Fitness,Fitness 16,73.36,4,0.05,278.77,222.9,55.87,Card,C1170,Small Business,WINTER10,true,2025-09-05,30
+481,2025-06-23,Store-1,South,Retail,P110,Electronics,Phones,Phones 9,73.11,4,0,292.44,220.48,71.96,Card,C1161,Consumer,,false,,24
+482,2025-06-15,Store-2,North,Retail,P110,Home,Decor,Decor 16,70.9,4,0,283.6,251.63,31.97,Cash,C1005,Corporate,NEW20,false,,12
+483,2025-08-07,Store-3,North,Retail,P176,Electronics,Audio,Audio 4,70.72,2,0,141.44,92.95,48.49,Wallet,C1185,Small Business,VIP5,false,,43
+484,2025-06-09,Store-2,North,Online,P180,Home,Kitchen,Kitchen 13,162.08,4,0.1,583.49,397.39,186.1,Cash,C1077,Small Business,,false,,31
+485,2025-06-21,Store-1,North,Retail,P154,Sports,Fitness,Fitness 7,194.99,1,0,194.99,147.91,47.08,Wallet,C1011,Small Business,WINTER10,false,,33
+486,2025-09-25,Store-2,Central,Retail,P103,Home,Kitchen,Kitchen 14,185.06,3,0.15,471.9,288.96,182.94,Card,C1118,Consumer,WINTER10,false,,9
+487,2025-06-02,Store-3,South,Retail,P162,Electronics,Audio,Audio 14,75.56,1,0.1,68.0,49.35,18.65,Card,C1129,Consumer,NEW20,false,,25
+488,2025-08-27,Store-1,Central,Retail,P118,Electronics,Audio,Audio 17,83.77,2,0.15,142.41,122.88,19.53,Cash,C1071,Corporate,,false,,7
+489,2025-07-27,Store-3,Central,Online,P168,Sports,Fitness,Fitness 17,40.71,5,0,203.55,130.53,73.02,Card,C1084,Consumer,VIP5,false,,7
+490,2025-06-05,Store-2,North,Online,P161,Electronics,Phones,Phones 16,174.55,2,0.1,314.19,216.94,97.25,Wallet,C1162,Consumer,WINTER10,true,2025-06-13,10
+491,2025-06-04,Store-2,South,Online,P115,Home,Kitchen,Kitchen 7,90.97,1,0.05,86.42,68.65,17.77,Wallet,C1148,Small Business,WINTER10,false,,41
+492,2025-07-03,Store-3,North,Retail,P196,Sports,Fitness,Fitness 14,116.65,2,0.05,221.63,161.29,60.34,Cash,C1017,Corporate,WINTER10,false,,33
+493,2025-07-19,Store-1,Central,Retail,P138,Home,Kitchen,Kitchen 20,22.62,1,0.05,21.49,17.55,3.94,Cash,C1126,Corporate,WINTER10,false,,23
+494,2025-06-03,Store-1,South,Online,P106,Electronics,Audio,Audio 10,174.68,3,0,524.04,457.26,66.78,Card,C1171,Consumer,NEW20,false,,44
+495,2025-09-18,Store-2,Central,Retail,P129,Electronics,Phones,Phones 6,160.66,3,0,481.98,339.73,142.25,Wallet,C1183,Corporate,WINTER10,false,,27
+496,2025-08-31,Store-1,North,Retail,P160,Sports,Fitness,Fitness 20,30.42,5,0,152.1,110.47,41.63,Card,C1128,Small Business,,false,,28
+497,2025-07-12,Store-1,South,Retail,P156,Electronics,Phones,Phones 20,163.61,2,0.15,278.14,194.47,83.67,Wallet,C1016,Corporate,,false,,7
+498,2025-07-01,Store-2,South,Online,P143,Sports,Fitness,Fitness 2,92.35,3,0.15,235.49,155.8,79.69,Cash,C1137,Small Business,WINTER10,false,,16
+499,2025-09-23,Store-3,South,Retail,P192,Home,Decor,Decor 5,62.17,4,0,248.68,216.96,31.72,Card,C1150,Consumer,NEW20,false,,13
+500,2025-08-30,Store-2,North,Retail,P151,Home,Kitchen,Kitchen 16,196.25,2,0.05,372.88,324.76,48.12,Cash,C1165,Corporate,WINTER10,false,,43
