@@ -48,27 +48,39 @@ This dataset captures both transactional details and general information about p
 ---
 
 ## 🚀 Running and Testing it
-Make sure that all the requirements are installed properly:  
+Make sure that all the requirements are installed properly (locally):
 
-```bash
+bash
 pip install fastapi uvicorn pydantic requests pandas numpy python-multipart
-```
+
 
 1. Start backend:  
-```bash
+bash
 uvicorn app:app --reload --port 8000
-```
+
 
 2. Open the UI from FastAPI:  
-```
+
 http://127.0.0.1:8000/
-```
+
 > Note: Do not open with Live Server at :5500.  
 
 3. Set in the PowerShell the API key:  
-```powershell
+powershell
 $env:MISTRAL_API_KEY="sk-..."
-```
+
 
 ---
+🐋Running on docker:
+Option 1: 
 
+docker build -t smart-insights .
+docker run --rm -p 8000:8000 --env-file .env smart-insights
+# http://localhost:8000
+
+Option 2:
+
+docker compose up --build
+
+
+## Group: Aya El Hajj, Batoul Hashem, Joud Senan
